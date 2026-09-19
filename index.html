@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Module 5 — Digital Techniques Mock Exam</title>
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<div class="topbar">
+  <div class="brand">MODULE 5 · DIGITAL TECHNIQUES<small>CAT-B1 / CAT-B2 · MOCK EXAM</small></div>
+  <div class="spacer"></div>
+  <a class="btn" href="cheat-sheet.html">CHEAT SHEET</a>
+  <label class="toggle">
+    <input type="checkbox" id="thToggle" checked>
+    TH
+  </label>
+  <span class="readout" id="readout">0 / 40 ANSWERED</span>
+</div>
+
+<div class="shell" id="shell">
+  <div class="hero">
+    <h1>Avionic / Module 5 — Final Exam Mock Test</h1>
+    <p>40 questions · book-based answers · Fisher-Yates shuffled each attempt · 75% (30/40) required to pass</p>
+    <p class="th">40 ข้อ · คำตอบอ้างอิงจากหนังสือ · สลับลำดับด้วย Fisher-Yates ทุกครั้ง · ต้องได้ 75% (30/40) จึงจะผ่าน</p>
+  </div>
+  <div class="rail"><div class="rail-fill" id="railFill"></div></div>
+  <!-- questions render here -->
+</div>
+
+<div class="footbar">
+  <button class="btn" id="shuffleBtn">↺ RESHUFFLE &amp; RESTART</button>
+  <button class="btn primary" id="submitBtn" disabled>SUBMIT TEST</button>
+</div>
+
+<script src="assets/quiz.js"></script>
+</body>
+</html>

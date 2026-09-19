@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Module 5 — Digital Techniques Cheat Sheet</title>
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="assets/style.css">
+<style>
+  .qcard { cursor: default; }
+  .answer-line { font-size: 13.5px; margin: 6px 0 8px; }
+  .answer-line .th { display:block; margin-top:2px; }
+  .explain { display:block !important; }
+  .hooks { list-style: none; padding:0; margin:0; display:grid; gap:8px; }
+  .hooks li { background: var(--panel); border:1px solid var(--border); border-radius:3px; padding:8px 12px; font-size:13.5px; }
+  .hooks li .th { display:block; margin-top:2px; }
+  .section-title { font-family: var(--display); color: var(--amber); font-size:14px; letter-spacing:.03em; margin: 26px 0 12px; }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="brand">MODULE 5 · DIGITAL TECHNIQUES<small>CAT-B1 / CAT-B2 · CHEAT SHEET</small></div>
+  <div class="spacer"></div>
+  <label class="toggle">
+    <input type="checkbox" id="thToggle" checked>
+    TH
+  </label>
+  <a class="btn primary" href="index.html">TAKE MOCK EXAM →</a>
+</div>
+
+<div class="shell">
+  <div class="hero">
+    <h1>Avionic / Module 5 — Final Exam Analysis</h1>
+    <p>40 questions · book-based answers · traps · references</p>
+    <p class="th">40 ข้อ · คำตอบอ้างอิงจากหนังสือ · จุดหลอก · แหล่งอ้างอิง</p>
+  </div>
+
+  <div class="explain open" style="margin-bottom:20px;">
+    <strong>Source rule:</strong> This guide uses the exam PDF as the question source and the CAT-B1/CAT-B2 Module 5 books as the study source. Where the books do not explicitly support a detail, it is flagged rather than silently filled from outside knowledge.
+    <span class="th"><strong>กฎการอ้างอิง:</strong> คู่มือนี้ใช้ไฟล์ข้อสอบเป็นแหล่งที่มาของคำถาม และหนังสือ CAT-B1/CAT-B2 Module 5 เป็นแหล่งอ้างอิงเนื้อหา หากหนังสือไม่มีข้อความสนับสนุนรายละเอียดใดอย่างชัดเจน จะมีการระบุไว้ แทนที่จะเติมคำตอบจากความรู้ภายนอก</span>
+    <span class="ref">Exam strategy: focus on the exact noun being asked (TX vs RX, grid vs anode, ROM vs RAM, FLS vs UMS), units, and the book's exact terminology.</span>
+  </div>
+
+  
+<div class="qcard">
+  <div class="qhead">
+    <span class="qnum">Q1</span>
+    <div class="qtext">In which colour is a "caution indication" displayed on the EICAS monitor?<span class="th">ไฟเตือนระดับ "caution" บนจอ EICAS แสดงเป็นสีอะไร?</span></div>
+    <span class="flag">VERIFY</span>
+  </div>
+  <div class="answer-line"><strong>Answer:</strong> Amber <span class="th">สีเหลืองอำพัน</span></div>
+  <div class="explain open">
+    The uploaded B1/B2 EICAS text confirms EICAS displays crew alerts and that CAS messages are colour coded, but the searchable book text does not explicitly give the caution-to-amber mapping. Treat this as the expected exam answer, not a directly quoted book statement.
+    <span class="th">เนื้อหา B1/B2 เรื่อง EICAS ยืนยันว่า EICAS แสดงการแจ้งเตือนของลูกเรือ และข้อความ CAS มีการเข้ารหัสสี แต่ข้อความที่ค้นหาได้ในหนังสือไม่ได้ระบุความสัมพันธ์ระหว่าง caution กับสีเหลืองอำพันไว้อย่างชัดเจน ให้ถือเป็นคำตอบที่คาดว่าจะออกสอบ ไม่ใช่ข้อความที่ยกมาโดยตรงจากหนังสือ</span>
+    <span class="ref">B1 p.224–225; B2 p.254–255 — EICAS</span>
+  </div>
+</div>
+
+<div class="qcard">
+  <div class="qhead">
+    <span class="qnum">Q2</span>
+    <div class="qtext">What does PFD mean?<span class="th">PFD ย่อมาจากอะไร?</span></div>
+    
+  </div>
+  <div class="answer-line"><strong>Answer:</strong> Primary Flight Display <span class="th">Primary Flight Display (จอแสดงข้อมูลการบินหลัก)</span></div>
+  <div class="explain open">
+    The EFIS section explicitly names the Primary Flight Display (PFD).
+    <span class="th">หัวข้อ EFIS ระบุชื่อ Primary Flight Display (PFD) ไว้อย่างชัดเจน</span>
+    <span class="ref">B1 p.219–220; B2 p.249–250 — EFIS</span>
+  </div>
+</div>
+
+<div class="qcard">
+  <div class="qhead">
+    <span class="qnum">Q3</span>
+    <div class="qtext">In which colour is a "warning indication" displayed on the EICAS monitor?<span class="th">ไฟเตือนระดับ "warning" บนจอ EICAS แสดงเป็นสีอะไร?</span></div>
+    <span class="flag">VERIFY</span>
+  </div>
+  <div class="answer-line"><strong>Answer:</strong> Red <span class="th">สีแดง</span></div>
+  <div class="explain open">
+    Same source limitation as Q1: the book text confirms colour-coded CAS/EICAS alerts but the searchable text does not explicitly state the warning/red mapping. Treat Red as the expected exam answer and verify against any instructor slide/figure.
+    <span class="th">ข้อจำกัดของแหล่งข้อมูลเช่นเดียวกับข้อ 1: เนื้อหาหนังสือยืนยันว่าการแจ้งเตือน CAS/EICAS มีการเข้ารหัสสี แต่ไม่ได้ระบุความสัมพันธ์ระหว่าง warning กับสีแดงไว้อย่างชัดเจน ให้ถือว่าสีแดงเป็นคำตอบที่คาดว่าจะออกสอบ และควรตรวจสอบเพิ่มเติมกับสไลด์/รูปของผู้สอน</span>
+    <span class="ref">B1 p.224–225; B2 p.254–255 — EICAS</span>
+  </div>
+</div>
+
+<div class="qcard">
+  <div class="qhead">
+    <span class="qnum">Q4</span>
+    <div class="qtext">What does EADI mean?<span class="th">EADI ย่อมาจากอะไร?</span></div>
+    
+  </div>
+  <div class="answer-line"><strong>Answer:</strong> Electronic Attitude Director Indicator <span class="th">Electronic Attitude Director Indicator</span></div>
+  <div class="explain open">
+    The B2 abbreviations list explicitly gives EADI = Electronic Attitude Director Indicator. The EFIS prose elsewhere uses "Electronic Attitude Direction Indicator"; for this exact exam wording, memorize the abbreviation-list wording.
+    <span class="th">รายการคำย่อใน B2 ระบุไว้ชัดเจนว่า EADI = Electronic Attitude Director Indicator ส่วนเนื้อหา EFIS ในที่อื่นใช้คำว่า "Electronic Attitude Direction Indicator" — สำหรับคำถามข้อสอบนี้ ให้จำคำในรายการคำย่อเป็นหลัก</span>
+    <span class="ref">B2 p.269; B1 abbreviation section around p.239</span>
+  </div>
+</div>
+
+<div class="qcard">
+  <div class="qhead">
+    <span class="qnum">Q5</span>
+    <div class="qtext">What kind of light is used in a fibre optic system of an aircraft?<span class="th">ระบบไฟเบอร์ออปติกของอากาศยานใช้แสงชนิดใด?</span></div>
+    
+  </div>
+  <div class="answer-line"><strong>Answer:</strong> Infra-red light <span class="th">แสงอินฟราเรด</span></div>
+  <div class="explain open">
+    The optical transmitter is described as an infra-red LED or a low-power semiconductor laser diode.
+    <span class="th">ตัวส่งสัญญาณแสงอธิบายว่าเป็น LED อินฟราเรด หรือไดโอดเลเซอร์สารกึ่งตัวนำกำลังต่ำ</span>
+    <span class="ref">B1 p.152; B2 p.182 — §5.10.5</span>
+  </div>
+</div>
+
+<div class="qcard">
+  <div class="qhead">
+    <span class="qnum">Q6</span>
+    <div class="qtext">Which material is used for the core of a fibre optic?<span class="th">แกนกลาง (core) ของไฟเบอร์ออปติกทำจากวัสดุใด?</span></div>
+    
+  </div>
+  <div class="answer-line"><strong>Answer:</strong> Silica glass <span class="th">แก้วซิลิกา</span></div>
+  <div class="explain open">
+    The book states that an optical fibre consists essentially of a cylindrical silica glass core surrounded by glass cladding.
+    <span class="th">หนังสือระบุว่าเส้นใยแก้วนำแสงประกอบด้วยแกนแก้วซิลิกาทรงกระบอกที่ล้อมรอบด้วยแคลดดิ้งแก้ว (glass cladding)</span>
+    <span class="ref">B1 p.148; B2 p.178 — §5.10.2</span>
+  </div>
+</div>
+
+<div class="qcard">
+  <div class="qhead">
+    <span class="qnum">Q7</span>
+    <div class="qtext">Which optical electronic device is used in a fibre optic transmitter?<span class="th">อุปกรณ์อิเล็กทรอนิกส์เชิงแสงชนิดใดที่ใช้ในตัวส่งสัญญาณ (transmitter) ของไฟเบอร์ออปติก?</span></div>
+    
+  </div>
+  <div class="answer-line"><strong>Answer:</strong> Infra-red LED or low-power semiconductor laser diode <span class="th">LED อินฟราเรด หรือไดโอดเลเซอร์สารกึ่งตัวนำกำลังต่ำ</span></div>
+  <div class="explain open">
+    The transmitter uses an IR LED or low-power semiconductor laser diode; the receiver uses a photodiode or phototransistor. Do not swap TX and RX.
+    <span class="th">ตัวส่ง (TX) ใช้ LED อินฟราเรดหรือไดโอดเลเซอร์กำลังต่ำ ส่วนตัวรับ (RX) ใช้โฟโต้ไดโอดหรือโฟโต้ทรานซิสเตอร์ — ห้ามสลับ TX กับ RX</span>
+    <span class="ref">B1 p.152; B2 p.182 — §5.10.5</span>
+  </div>
+</div>
+
+<div class="qcard">
+  <div class="qhead">
+    <span class="qnum">Q8</span>
+    <div class="qtext">How is a colour picture on a CRT generated?<span class="th">ภาพสีบนจอ CRT ถูกสร้างขึ้นได้อย่างไร?</span></div>
+    
+  </div>
+  <div class="answer-line"><strong>Answer:</strong> Three cathodes/electron beams with red, green and blue phosphors at varying intensities (additive colour) <span class="th">แคโทด/ลำอิเล็กตรอนสามชุดยิงไปยังสารเรืองแสงสีแดง เขียว น้ำเงิน โดยปรับความเข้มต่างกัน (ผสมสีแบบบวก)</span></div>
+  <div class="explain open">
+    The book describes three video signals feeding three cathodes, each beam focused on its corresponding colour phosphor. Different RGB intensities generate the range of colours.
+    <span class="th">หนังสืออธิบายว่าสัญญาณวิดีโอสามสัญญาณป้อนเข้าสู่แคโทดสามชุด แต่ละลำแสงโฟกัสไปยังสารเรืองแสงสีที่สอดคล้องกัน ความเข้มของสี RGB ที่แตกต่างกันทำให้เกิดสีที่หลากหลาย</span>
+    <span class="ref">B1 p.164; B2 p.194 — Colour Displays</span>
+  </div>
+</div>
+
+<div class="qcard">
+  <div class="qhead">
+    <span class="qnum">Q9</span>
+    <div class="qtext">Which voltage waveform does a CRT use to produce the scanned raster?<span class="th">จอ CRT ใช้รูปคลื่นแรงดันไฟฟ้าแบบใดในการสร้างภาพแบบราสเตอร์ (scanned raster)?</span></div>
+    
+  </div>
+  <div class="answer-line"><strong>Answer:</strong> Ramp (sawtooth) waveforms on the X and Y plates <span class="th">รูปคลื่นแบบแรมป์/ฟันเลื่อยที่แผ่น X และ Y</span></div>
+  <div class="explain open">
+    The book states that the X and Y plate waveforms required to produce the scanned raster are ramp (sawtooth) shaped and have different frequencies.
+    <span class="th">หนังสือระบุว่ารูปคลื่นที่แผ่น X และ Y ที่จำเป็นในการสร้างราสเตอร์แบบสแกนมีลักษณะเป็นแรมป์ (ฟันเลื่อย) และมีความถี่ต่างกัน</span>
+    <span class="ref">B1 p.162; B2 p.192 — Scanning</span>
+  </div>
+</div>
+
+<div class="qcard">
+  <div class="qhead">
+    <span class="qnum">Q10</span>
+    <div class="qtext">Which is the most positive material in the triboelectric series?<span class="th">วัสดุใดมีประจุบวกมากที่สุดในอนุกรมไทรโบอิเล็กทริก (triboelectric series)?</span></div>
+    
+  </div>
+  <div class="answer-line"><strong>Answer:</strong> Air <span class="th">อากาศ</span></div>
+  <div class="explain open">
+    In the book's triboelectric series, Air is at the most-positive end; Paper is at the least-positive end.
+    <span class="th">ในอนุกรมไทรโบอิเล็กทริกของหนังสือ อากาศอยู่ปลายด้านบวกที่สุด ส่วนกระดาษอยู่ปลายด้านลบที่สุด</span>
+    <span class="ref">B1 p.176; B2 p.206 — §5.12.3</span>
+  </div>
+</div>
+
+<div class="qcard">
+  <div class="qhead">
+    <span class="qnum">Q11</span>
+    <div class="qtext">When will a high electrostatic voltage be produced?<span class="th">แรงดันไฟฟ้าสถิตสูงจะเกิดขึ้นเมื่อใด?</span></div>
+    
+  </div>
+  <div class="answer-line"><strong>Answer:</strong> At low / very low relative humidity <span class="th">เมื่อความชื้นสัมพัทธ์ต่ำ / ต่ำมาก</span></div>
+  <div class="explain open">
+    The book discusses the strong effect of relative humidity on static charge; dry/low-humidity conditions permit higher electrostatic charge accumulation.
+    <span class="th">หนังสือกล่าวถึงผลกระทบอย่างมากของความชื้นสัมพัทธ์ต่อประจุไฟฟ้าสถิต สภาวะแห้ง/ความชื้นต่ำเอื้อให้เกิดการสะสมประจุไฟฟ้าสถิตสูงขึ้น</span>
+    <span class="ref">B1 p.177; B2 p.207 — Static Electricity / Triboelectric series</span>
+  </div>
+</div>
+
+<div class="qcard">
+  <div class="qhead">
+    <span class="qnum">Q12</span>
+    <div class="qtext">What is the resistance for a ground lead, i.e. wrist strap, when working with ESD?<span class="th">ค่าความต้านทานของสายกราวด์ (ground lead) เช่น สายรัดข้อมือ (wrist strap) เมื่อทำงานเกี่ยวกับ ESD คือเท่าใด?</span></div>
+    
+  </div>
+  <div class="answer-line"><strong>Answer:</strong> 1 MΩ <span class="th">1 MΩ</span></div>
+  <div class="explain open">
+    The wrist-strap ground lead includes an integral 1 MΩ resistor to limit current and reduce shock hazard.
+    <span class="th">สายกราวด์ของสายรัดข้อมือมีตัวต้านทาน 1 MΩ ในตัว เพื่อจำกัดกระแสไฟฟ้าและลดอันตรายจากไฟฟ้าช็อต</span>
+    <span class="ref">B1 p.180; B2 p.210 — §5.12.6</span>
+  </div>
+</div>
+
+<div class="qcard">
+  <div class="qhead">
+    <span class="qnum">Q13</span>
+    <div class="qtext">Which is the least positive material in the triboelectric series?<span class="th">วัสดุใดมีประจุบวกน้อยที่สุดในอนุกรมไทรโบอิเล็กทริก?</span></div>
+    
+  </div>
+  <div class="answer-line"><strong>Answer:</strong> Paper <span class="th">กระดาษ</span></div>
+  <div class="explain open">
+    Paper is at the least-positive end of the listed series.
+    <span class="th">กระดาษอยู่ปลายด้านที่มีประจุบวกน้อยที่สุดของอนุกรมที่ระบุไว้ในหนังสือ</span>
+    <span class="ref">B1 p.176; B2 p.206 — §5.12.3</span>
+  </div>
+</div>
+
+<div class="qcard">
+  <div class="qhead">
+    <span class="qnum">Q14</span>
+    <div class="qtext">For which purpose is the checksum being used?<span class="th">checksum ถูกใช้เพื่อวัตถุประสงค์ใด?</span></div>
+    
+  </div>
+  <div class="answer-line"><strong>Answer:</strong> To detect errors / indicate that a file or transmitted data has become corrupt <span class="th">เพื่อตรวจจับข้อผิดพลาด / บ่งชี้ว่าไฟล์หรือข้อมูลที่ส่งเกิดความเสียหาย</span></div>
+  <div class="explain open">
+    The software section says checksums are used to check data files and executable code for errors; the data-bus section also uses a checksum/parity check to detect transmission errors.
+    <span class="th">หัวข้อซอฟต์แวร์ระบุว่า checksum ใช้ตรวจสอบไฟล์ข้อมูลและโค้ดที่ทำงานได้ (executable code) เพื่อหาข้อผิดพลาด ส่วนหัวข้อ data bus ก็ใช้ checksum/parity check เพื่อตรวจจับข้อผิดพลาดในการส่งสัญญาณเช่นกัน</span>
+    <span class="ref">B1 p.82 and p.198; B2 p.82 and p.228 — Data verification</span>
+  </div>
+</div>
+
+<div class="qcard">
+  <div class="qhead">
+    <span class="qnum">Q15</span>
+    <div class="qtext">What is the maximum number of failures per flight hour allowed for certification of Level A software (acc. to DO-178)?<span class="th">จำนวนความล้มเหลวสูงสุดต่อชั่วโมงบินที่อนุญาตสำหรับการรับรองซอฟต์แวร์ระดับ Level A (ตามมาตรฐาน DO-178) คือเท่าใด?</span></div>
+    <span class="flag">VERIFY</span>
+  </div>
+  <div class="answer-line"><strong>Answer:</strong> 1 × 10⁻9 per flight hour (industry-standard figure — not stated in the uploaded book text) <span class="th">1 × 10⁻9 ต่อชั่วโมงบิน (ตัวเลขมาตรฐานอุตสาหกรรม — ไม่ได้ระบุไว้ในเนื้อหาหนังสือที่อัปโหลด)</span></div>
+  <div class="explain open">
+    The book states Level A is the highest criticality and corresponds to catastrophic failure, but the numerical failure-per-flight-hour value is NOT exposed in the searchable B1/B2 text. The 1×10⁻9 figure is the widely used industry/DO-178C reference value, shown here for completeness, not as a book-verified fact. Do not treat it as a direct quote from your books.
+    <span class="th">หนังสือระบุว่า Level A เป็นระดับความรุนแรงสูงสุด สอดคล้องกับความล้มเหลวขั้น catastrophic แต่ไม่มีตัวเลขความล้มเหลวต่อชั่วโมงบินปรากฏในเนื้อหา B1/B2 ที่ค้นหาได้ ตัวเลข 1×10⁻9 เป็นค่าอ้างอิงมาตรฐานอุตสาหกรรม/DO-178C ที่ใช้กันทั่วไป แสดงไว้เพื่อความสมบูรณ์เท่านั้น ไม่ใช่ข้อเท็จจริงที่ตรวจสอบได้จากหนังสือ ห้ามถือว่าเป็นคำพูดที่ยกมาโดยตรงจากหนังสือของคุณ</span>
+    <span class="ref">B1 p.190–191; B2 p.220–221 — §5.13.1–5.13.2</span>
+  </div>
+</div>
+
+<div class="qcard">
+  <div class="qhead">
+    <span class="qnum">Q16</span>
+    <div class="qtext">In which failure category according to DO-178B is the software of the inflight entertainment system (IFE) classified?<span class="th">ตามมาตรฐาน DO-178B ซอฟต์แวร์ของระบบความบันเทิงบนเครื่องบิน (IFE) จัดอยู่ในประเภทความล้มเหลวระดับใด?</span></div>
+    <span class="flag">VERIFY</span>
+  </div>
+  <div class="answer-line"><strong>Answer:</strong> Level E <span class="th">Level E</span></div>
+  <div class="explain open">
+    The book explicitly identifies IFE as an example of User Modifiable Software, and Figure 13-3 is the book's table of software levels. Because the figure's row text is not exposed in the searchable text, this answer is flagged rather than presented as directly text-verified.
+    <span class="th">หนังสือระบุชัดเจนว่า IFE เป็นตัวอย่างของ User Modifiable Software และ Figure 13-3 คือตารางระดับซอฟต์แวร์ของหนังสือ เนื่องจากข้อความในรูปนี้ไม่ปรากฏในส่วนที่ค้นหาได้ คำตอบนี้จึงถูกทำเครื่องหมายไว้ แทนที่จะนำเสนอว่าตรวจสอบได้โดยตรงจากข้อความ</span>
+    <span class="ref">B1 p.193, Figure 13-3 p.190–191; B2 p.223, Figure 13-3 p.220–221</span>
+  </div>
+</div>
+
+<div class="qcard">
+  <div class="qhead">
+    <span class="qnum">Q17</span>
+    <div class="qtext">What is the transmission rate of an RS232 interface, if the bit width is 20 ms?<span class="th">อัตราการส่งข้อมูล (transmission rate) ของอินเทอร์เฟส RS232 คือเท่าใด หากความกว้างของบิต (bit width) เท่ากับ 20 ms?</span></div>
+    
+  </div>
+  <div class="answer-line"><strong>Answer:</strong> 50 bit/s <span class="th">50 bit/s</span></div>
+  <div class="explain open">
+    The book gives the direct example: 20 ms bit width results in 50 bit/s.
+    <span class="th">หนังสือให้ตัวอย่างไว้โดยตรงว่าความกว้างบิต 20 ms ให้อัตรา 50 bit/s</span>
+    <span class="ref">B1 p.80; B2 p.80 — RS232 bit synchronisation</span>
+  </div>
+</div>
+
+<div class="qcard">
+  <div class="qhead">
+    <span class="qnum">Q18</span>
+    <div class="qtext">Which logic gate uses the OR symbol with an extra curved line on the input side?<span class="th">เกทลอจิกใดใช้สัญลักษณ์คล้ายเกท OR ที่มีเส้นโค้งเพิ่มเติมทางด้านอินพุต?</span></div>
+    
+  </div>
+  <div class="answer-line"><strong>Answer:</strong> Exclusive-OR (XOR) gate <span class="th">เกท Exclusive-OR (XOR)</span></div>
+  <div class="explain open">
+    The exam image shows the OR-shaped gate with the additional curved line on the input side, which is the XOR symbol. The book's Figure 5-8 is the XOR symbol and truth table.
+    <span class="th">ภาพในข้อสอบแสดงสัญลักษณ์รูปทรงคล้ายเกท OR ที่มีเส้นโค้งเพิ่มเติมทางด้านอินพุต ซึ่งเป็นสัญลักษณ์ของ XOR รูปที่ 5-8 ในหนังสือคือสัญลักษณ์และตารางค่าความจริงของ XOR</span>
+    <span class="ref">B1 p.92; B2 p.92 — Figure 5-8</span>
+  </div>
+</div>
+
+<div class="qcard">
+  <div class="qhead">
+    <span class="qnum">Q19</span>
+    <div class="qtext">When does an AND-gate produce a logic 1 at the output?<span class="th">เกท AND จะให้เอาต์พุตเป็นลอจิก 1 เมื่อใด?</span></div>
+    
+  </div>
+  <div class="answer-line"><strong>Answer:</strong> Only when all inputs are simultaneously logic 1 <span class="th">เฉพาะเมื่ออินพุตทุกตัวเป็นลอจิก 1 พร้อมกันเท่านั้น</span></div>
+  <div class="explain open">
+    This is the book's exact functional description of an AND gate.
+    <span class="th">นี่คือคำอธิบายการทำงานของเกท AND ตามที่หนังสือระบุไว้ตรงตัว</span>
+    <span class="ref">B1 p.90; B2 p.90 — AND Function</span>
+  </div>
+</div>
+
+<div class="qcard">
+  <div class="qhead">
+    <span class="qnum">Q20</span>
+    <div class="qtext">When does a NAND-function produce a logic 0 at the output?<span class="th">ฟังก์ชัน NAND จะให้เอาต์พุตเป็นลอจิก 0 เมื่อใด?</span></div>
+    
+  </div>
+  <div class="answer-line"><strong>Answer:</strong> When all inputs are logic 1 <span class="th">เมื่ออินพุตทุกตัวเป็นลอจิก 1</span></div>
+  <div class="explain open">
+    NAND is an AND function with an inverted output. Therefore the output becomes 0 only for the all-1 input combination.
+    <span class="th">NAND คือฟังก์ชัน AND ที่มีเอาต์พุตกลับสถานะ (inverted) ดังนั้นเอาต์พุตจะเป็น 0 เฉพาะเมื่ออินพุตทุกตัวเป็น 1 เท่านั้น</span>
+    <span class="ref">B1 p.91; B2 p.91 — NAND Function</span>
+  </div>
+</div>
+
+<div class="qcard">
+  <div class="qhead">
+    <span class="qnum">Q21</span>
+    <div class="qtext">Which of the following EPROMs is only one-time programmable?<span class="th">EPROM ชนิดใดที่สามารถโปรแกรมได้เพียงครั้งเดียว (one-time programmable)?</span></div>
+    
+  </div>
+  <div class="answer-line"><strong>Answer:</strong> OTP EPROM / OTP PROM <span class="th">OTP EPROM / OTP PROM</span></div>
+  <div class="explain open">
+    The book explicitly describes OTP EPROM as one-time programmable; the fuse links are blown by a current pulse and the programmed device cannot be returned to its original state.
+    <span class="th">หนังสืออธิบายว่า OTP EPROM สามารถโปรแกรมได้เพียงครั้งเดียว โดย fuse link จะถูกทำให้ขาดด้วยพัลส์กระแสไฟฟ้า และอุปกรณ์ที่ถูกโปรแกรมแล้วไม่สามารถกลับสู่สถานะเดิมได้</span>
+    <span class="ref">B1 p.138; B2 p.138 — Read only memory</span>
+  </div>
+</div>
+
+<div class="qcard">
+  <div class="qhead">
+    <span class="qnum">Q22</span>
+    <div class="qtext">Which statement about the advantage of a semiconductor memory is correct?<span class="th">ข้อความใดเกี่ยวกับข้อดีของหน่วยความจำสารกึ่งตัวนำ (semiconductor memory) ถูกต้อง?</span></div>
+    <span class="flag">VERIFY</span>
+  </div>
+  <div class="answer-line"><strong>Answer:</strong> Data can be retrieved from all locations with equal ease (random access), and MOS memory uses significantly less power than bipolar memory <span class="th">สามารถเรียกข้อมูลจากทุกตำแหน่งได้ง่ายเท่ากัน (random access) และหน่วยความจำ MOS ใช้พลังงานน้อยกว่าหน่วยความจำแบบ bipolar อย่างมีนัยสำคัญ</span></div>
+  <div class="explain open">
+    Because the exam gives no answer choices in the source PDF, more than one statement could sound plausible. These options were built around the safest book-derived facts: the random-access property and the lower power requirement of MOS versus bipolar memory. If you obtain the real exam choices, send them and this item can be tightened.
+    <span class="th">เนื่องจากข้อสอบต้นฉบับไม่มีตัวเลือกให้ ตัวเลือกในแบบทดสอบนี้จึงถูกสร้างขึ้นจากข้อเท็จจริงที่ปลอดภัยที่สุดจากหนังสือ ได้แก่ คุณสมบัติ random access และการใช้พลังงานที่ต่ำกว่าของ MOS เมื่อเทียบกับ bipolar หากได้ตัวเลือกจริงจากข้อสอบ ส่งมาเพื่อปรับปรุงข้อนี้ให้แม่นยำขึ้นได้</span>
+    <span class="ref">B1 p.134–135; B2 p.134–135 — RAM</span>
+  </div>
+</div>
+
+<div class="qcard">
+  <div class="qhead">
+    <span class="qnum">Q23</span>
+    <div class="qtext">Mark the correct statement about a ROM.<span class="th">ข้อความใดถูกต้องเกี่ยวกับ ROM?</span></div>
+    <span class="flag">VERIFY</span>
+  </div>
+  <div class="answer-line"><strong>Answer:</strong> ROM is non-volatile; once programmed it can be read from but not written to in normal operation <span class="th">ROM เป็นหน่วยความจำแบบไม่ลบเลือน (non-volatile) เมื่อถูกโปรแกรมแล้วสามารถอ่านได้เท่านั้น ไม่สามารถเขียนทับได้ในการใช้งานปกติ</span></div>
+  <div class="explain open">
+    The book explicitly says ROM contents are not lost when supply is disconnected and that, once programmed, ROM can only be read from and not written to.
+    <span class="th">หนังสือระบุชัดเจนว่าข้อมูลใน ROM จะไม่สูญหายเมื่อตัดไฟเลี้ยง และเมื่อถูกโปรแกรมแล้ว ROM จะอ่านได้เท่านั้น ไม่สามารถเขียนได้</span>
+    <span class="ref">B1 p.138; B2 p.138 — Read only memory</span>
+  </div>
+</div>
+
+<div class="qcard">
+  <div class="qhead">
+    <span class="qnum">Q24</span>
+    <div class="qtext">What is the characteristic of an EEPROM?<span class="th">คุณสมบัติของ EEPROM คืออะไร?</span></div>
+    
+  </div>
+  <div class="answer-line"><strong>Answer:</strong> It can be electrically erased/reprogrammed and both read and written; writing is much slower than reading <span class="th">สามารถลบและโปรแกรมใหม่ได้ทางไฟฟ้า อ่านและเขียนได้ทั้งคู่ แต่การเขียนช้ากว่าการอ่านมาก</span></div>
+  <div class="explain open">
+    The book calls it Electrically Erasable PROM (EEPROM), also known as Flash memory, and states that it can both be read and written. It is not suitable for normal RAM read/write use because writing is typically much slower.
+    <span class="th">หนังสือเรียกอุปกรณ์นี้ว่า Electrically Erasable PROM (EEPROM) หรือที่รู้จักกันในชื่อ Flash memory และระบุว่าสามารถทั้งอ่านและเขียนได้ แต่ไม่เหมาะสำหรับใช้งานแบบ RAM ทั่วไป เนื่องจากการเขียนมักช้ากว่ามาก</span>
+    <span class="ref">B1 p.139; B2 p.139 — EEPROM</span>
+  </div>
+</div>
+
+<div class="qcard">
+  <div class="qhead">
+    <span class="qnum">Q25</span>
+    <div class="qtext">Which resistance value for the bonding of radar equipment is required?<span class="th">ค่าความต้านทานสำหรับการบอนดิ้ง (bonding) ของอุปกรณ์เรดาร์ที่กำหนดไว้คือเท่าใด?</span></div>
+    
+  </div>
+  <div class="answer-line"><strong>Answer:</strong> Less than 0.001 Ω to 0.003 Ω <span class="th">น้อยกว่า 0.001 Ω ถึง 0.003 Ω</span></div>
+  <div class="explain open">
+    The grounding and bonding section gives this numerical range. Radar equipment is explicitly mentioned in the context of HIRF sources.
+    <span class="th">หัวข้อเรื่องกราวด์และบอนดิ้งให้ช่วงตัวเลขนี้ไว้ โดยกล่าวถึงอุปกรณ์เรดาร์ในบริบทของแหล่งกำเนิด HIRF อย่างชัดเจน</span>
+    <span class="ref">B1 p.214; B2 p.244 — §5.14.7</span>
+  </div>
+</div>
+
+<div class="qcard">
+  <div class="qhead">
+    <span class="qnum">Q26</span>
+    <div class="qtext">The fundamental frequency of a signal is 100 MHz. Which value represents the third harmonic?<span class="th">ความถี่มูลฐาน (fundamental frequency) ของสัญญาณคือ 100 MHz ค่าใดคือฮาร์มอนิกที่สาม (third harmonic)?</span></div>
+    
+  </div>
+  <div class="answer-line"><strong>Answer:</strong> 300 MHz <span class="th">300 MHz</span></div>
+  <div class="explain open">
+    The book defines the third harmonic as three times the fundamental frequency. 3 × 100 MHz = 300 MHz.
+    <span class="th">หนังสือนิยามฮาร์มอนิกที่สามว่าเท่ากับสามเท่าของความถี่มูลฐาน 3 × 100 MHz = 300 MHz</span>
+    <span class="ref">B1 p.202; B2 p.232 — Harmonics / Fourier analysis</span>
+  </div>
+</div>
+
+<div class="qcard">
+  <div class="qhead">
+    <span class="qnum">Q27</span>
+    <div class="qtext">Which of the following is a way to reduce EMI of AC-systems?<span class="th">วิธีใดใช้ลด EMI ของระบบไฟฟ้ากระแสสลับ (AC-systems)?</span></div>
+    
+  </div>
+  <div class="answer-line"><strong>Answer:</strong> Use a low-pass supply filter to remove noise and spurious signals from harmonics <span class="th">ใช้ตัวกรองสัญญาณผ่านความถี่ต่ำ (low-pass filter) ที่แหล่งจ่ายไฟ เพื่อกำจัดสัญญาณรบกวนและสัญญาณแปลกปลอมจากฮาร์มอนิก</span></div>
+  <div class="explain open">
+    The book's modified supply example uses C11, L1, L2, C12 and C13 as a low-pass supply filter. If the real exam choices include this, it is the book-supported choice.
+    <span class="th">ตัวอย่างวงจรแหล่งจ่ายไฟที่ปรับปรุงแล้วในหนังสือใช้ C11, L1, L2, C12 และ C13 เป็นตัวกรองผ่านความถี่ต่ำที่แหล่งจ่ายไฟ หากตัวเลือกจริงมีข้อนี้ ให้ถือเป็นคำตอบที่หนังสือรองรับ</span>
+    <span class="ref">B1 p.204; B2 p.234–235 — §5.14.2</span>
+  </div>
+</div>
+
+<div class="qcard">
+  <div class="qhead">
+    <span class="qnum">Q28</span>
+    <div class="qtext">What does IRS stand for?<span class="th">IRS ย่อมาจากอะไร?</span></div>
+    
+  </div>
+  <div class="answer-line"><strong>Answer:</strong> Inertial Reference System <span class="th">Inertial Reference System</span></div>
+  <div class="explain open">
+    The book explicitly expands IRS and describes it as an accurate navigation system independent of external radio input.
+    <span class="th">หนังสือขยายความคำว่า IRS ไว้อย่างชัดเจน และอธิบายว่าเป็นระบบนำร่องที่แม่นยำซึ่งไม่ขึ้นกับสัญญาณวิทยุจากภายนอก</span>
+    <span class="ref">B1 p.231; B2 p.261 — §5.15.7</span>
+  </div>
+</div>
+
+<div class="qcard">
+  <div class="qhead">
+    <span class="qnum">Q29</span>
+    <div class="qtext">What does FBW mean?<span class="th">FBW หมายถึงอะไร?</span></div>
+    
+  </div>
+  <div class="answer-line"><strong>Answer:</strong> Fly-by-Wire <span class="th">Fly-by-Wire</span></div>
+  <div class="explain open">
+    The book explicitly uses Fly-by-Wire (FBW) and describes electrical connections replacing conventional mechanical linkages for flight controls.
+    <span class="th">หนังสือใช้คำว่า Fly-by-Wire (FBW) อย่างชัดเจน และอธิบายว่าเป็นการเชื่อมต่อทางไฟฟ้าที่ใช้แทนกลไกเชื่อมโยงแบบดั้งเดิมสำหรับระบบควบคุมการบิน</span>
+    <span class="ref">B1 p.227–228; B2 p.257 — §5.15.4</span>
+  </div>
+</div>
+
+<div class="qcard">
+  <div class="qhead">
+    <span class="qnum">Q30</span>
+    <div class="qtext">Which two displays are part of the EFIS system?<span class="th">จอแสดงผลสองชนิดใดที่เป็นส่วนหนึ่งของระบบ EFIS?</span></div>
+    
+  </div>
+  <div class="answer-line"><strong>Answer:</strong> Primary Flight Display (PFD) and Navigation Display (ND) <span class="th">Primary Flight Display (PFD) และ Navigation Display (ND)</span></div>
+  <div class="explain open">
+    The B1 book's EFIS section lists PFD and ND as the key displays; the B2 book gives a typical EFIS system comprising PFD, ND and associated processing/control units.
+    <span class="th">หัวข้อ EFIS ของหนังสือ B1 ระบุ PFD และ ND เป็นจอแสดงผลหลัก ส่วนหนังสือ B2 อธิบายระบบ EFIS ทั่วไปว่าประกอบด้วย PFD, ND และหน่วยประมวลผล/ควบคุมที่เกี่ยวข้อง</span>
+    <span class="ref">B1 p.219–220; B2 p.249–250</span>
+  </div>
+</div>
+
+<div class="qcard">
+  <div class="qhead">
+    <span class="qnum">Q31</span>
+    <div class="qtext">The GPS receiver is part of the:<span class="th">เครื่องรับสัญญาณ GPS (GPS receiver) เป็นส่วนหนึ่งของ:</span></div>
+    
+  </div>
+  <div class="answer-line"><strong>Answer:</strong> User Segment <span class="th">User Segment</span></div>
+  <div class="explain open">
+    The GPS user segment comprises the receivers, processors and antennas that receive satellite broadcasts and calculate position, velocity and time.
+    <span class="th">User segment ของ GPS ประกอบด้วยเครื่องรับ ตัวประมวลผล และเสาอากาศ ที่รับสัญญาณจากดาวเทียมและคำนวณตำแหน่ง ความเร็ว และเวลา</span>
+    <span class="ref">B1 p.230; B2 p.260 — GPS segments</span>
+  </div>
+</div>
+
+<div class="qcard">
+  <div class="qhead">
+    <span class="qnum">Q32</span>
+    <div class="qtext">What is the ACARS System?<span class="th">ระบบ ACARS คืออะไร?</span></div>
+    
+  </div>
+  <div class="answer-line"><strong>Answer:</strong> Aircraft Communication Addressing and Reporting System <span class="th">Aircraft Communication Addressing and Reporting System</span></div>
+  <div class="explain open">
+    ACARS is a digital data-link system in the VHF range (129–137 MHz) that allows aircraft operators to exchange data with aircraft.
+    <span class="th">ACARS คือระบบดาต้าลิงก์ดิจิทัลในย่านความถี่ VHF (129–137 MHz) ที่ให้ผู้ให้บริการเครื่องบินแลกเปลี่ยนข้อมูลกับอากาศยานได้</span>
+    <span class="ref">B1 p.217–218; B2 p.247–248 — §5.15.1</span>
+  </div>
+</div>
+
+<div class="qcard">
+  <div class="qhead">
+    <span class="qnum">Q33</span>
+    <div class="qtext">Convert the decimal number 12 to a binary number. Which answer is correct?<span class="th">แปลงเลขฐานสิบ 12 เป็นเลขฐานสอง คำตอบใดถูกต้อง?</span></div>
+    
+  </div>
+  <div class="answer-line"><strong>Answer:</strong> 1100 <span class="th">1100</span></div>
+  <div class="explain open">
+    12 = 8 + 4, so the 8-bit and 4-bit positions are 1 and the 2 and 1 positions are 0: 1100.
+    <span class="th">12 = 8 + 4 ดังนั้นตำแหน่งบิตของ 8 และ 4 เป็น 1 ส่วนตำแหน่งของ 2 และ 1 เป็น 0 จึงได้ 1100</span>
+    <span class="ref">B1 p.133; B2 p.133 — Number systems / Data representation</span>
+  </div>
+</div>
+
+<div class="qcard">
+  <div class="qhead">
+    <span class="qnum">Q34</span>
+    <div class="qtext">What is the base of the octal numbering system?<span class="th">ระบบเลขฐานแปด (octal) มีฐานเท่าใด?</span></div>
+    
+  </div>
+  <div class="answer-line"><strong>Answer:</strong> 8 <span class="th">8</span></div>
+  <div class="explain open">
+    Octal is base 8; its digits are 0 through 7.
+    <span class="th">เลขฐานแปดมีฐานเป็น 8 ตัวเลขที่ใช้คือ 0 ถึง 7</span>
+    <span class="ref">B1 p.133; B2 p.133 — Number systems</span>
+  </div>
+</div>
+
+<div class="qcard">
+  <div class="qhead">
+    <span class="qnum">Q35</span>
+    <div class="qtext">What is the decimal value of the binary number 1111?<span class="th">เลขฐานสอง 1111 มีค่าเท่ากับเลขฐานสิบใด?</span></div>
+    
+  </div>
+  <div class="answer-line"><strong>Answer:</strong> 15 <span class="th">15</span></div>
+  <div class="explain open">
+    1111₂ = 8 + 4 + 2 + 1 = 15.
+    <span class="th">1111₂ = 8 + 4 + 2 + 1 = 15</span>
+    <span class="ref">B1 p.133; B2 p.133 — Number systems / Data representation</span>
+  </div>
+</div>
+
+<div class="qcard">
+  <div class="qhead">
+    <span class="qnum">Q36</span>
+    <div class="qtext">The input signal for an A/D converter is always an:<span class="th">สัญญาณอินพุตของตัวแปลง A/D จะเป็นสัญญาณชนิดใดเสมอ?</span></div>
+    
+  </div>
+  <div class="answer-line"><strong>Answer:</strong> Analogue signal <span class="th">สัญญาณอนาล็อก</span></div>
+  <div class="explain open">
+    The A/D converter converts an analogue input into a digital/binary representation.
+    <span class="th">ตัวแปลง A/D จะแปลงสัญญาณอินพุตแบบอนาล็อกให้เป็นข้อมูลดิจิทัล/เลขฐานสอง</span>
+    <span class="ref">B1/B2 §5.3 — A/D conversion</span>
+  </div>
+</div>
+
+<div class="qcard">
+  <div class="qhead">
+    <span class="qnum">Q37</span>
+    <div class="qtext">Why do we need A/D converters?<span class="th">เหตุใดจึงต้องใช้ตัวแปลง A/D?</span></div>
+    
+  </div>
+  <div class="answer-line"><strong>Answer:</strong> To convert analogue signals/measurements into digital data that a computer can process <span class="th">เพื่อแปลงสัญญาณ/ค่าที่วัดได้แบบอนาล็อกให้เป็นข้อมูลดิจิทัลที่คอมพิวเตอร์สามารถประมวลผลได้</span></div>
+  <div class="explain open">
+    The book describes an analogue voltage measurement being converted to a digital value represented as binary numbers.
+    <span class="th">หนังสืออธิบายว่าค่าแรงดันไฟฟ้าอนาล็อกที่วัดได้จะถูกแปลงเป็นค่าดิจิทัลซึ่งแทนด้วยเลขฐานสอง</span>
+    <span class="ref">B1/B2 §5.3 — A/D conversion</span>
+  </div>
+</div>
+
+<div class="qcard">
+  <div class="qhead">
+    <span class="qnum">Q38</span>
+    <div class="qtext">The sampling time of an A/D converter is 2 ms. How many results will be measured in 1 second?<span class="th">เวลาในการสุ่มตัวอย่าง (sampling time) ของตัวแปลง A/D คือ 2 ms จะวัดผลได้กี่ครั้งใน 1 วินาที?</span></div>
+    
+  </div>
+  <div class="answer-line"><strong>Answer:</strong> 500 results <span class="th">500 ครั้ง</span></div>
+  <div class="explain open">
+    1 second = 1000 ms. 1000 ÷ 2 = 500 samples/results per second.
+    <span class="th">1 วินาที = 1000 ms หาร 1000 ด้วย 2 ได้ 500 ตัวอย่างต่อวินาที</span>
+    <span class="ref">B1/B2 §5.3 — Sampling / A/D conversion</span>
+  </div>
+</div>
+
+<div class="qcard">
+  <div class="qhead">
+    <span class="qnum">Q39</span>
+    <div class="qtext">What is the disadvantage of a return-to-zero (RZ) signal compared to a non-return-to-zero (NRZ) signal?<span class="th">ข้อเสียของสัญญาณ return to zero (RZ) เมื่อเทียบกับสัญญาณ non-return to zero (NRZ) คืออะไร?</span></div>
+    
+  </div>
+  <div class="answer-line"><strong>Answer:</strong> It requires twice as much bandwidth <span class="th">ต้องการแบนด์วิดท์มากกว่าถึงสองเท่า</span></div>
+  <div class="explain open">
+    The book states this explicitly. RZ returns to zero after half the clock period, guaranteeing a transition for clock recovery, but the trade-off is twice the bandwidth requirement.
+    <span class="th">หนังสือระบุไว้อย่างชัดเจน สัญญาณ RZ จะกลับสู่ศูนย์หลังจากผ่านครึ่งหนึ่งของคาบสัญญาณนาฬิกา ทำให้มั่นใจได้ว่าจะมีการเปลี่ยนสถานะสำหรับการกู้คืนสัญญาณนาฬิกา แต่ข้อแลกเปลี่ยนคือต้องใช้แบนด์วิดท์เพิ่มขึ้นเป็นสองเท่า</span>
+    <span class="ref">B1 p.76; B2 p.76 — Return to Zero</span>
+  </div>
+</div>
+
+<div class="qcard">
+  <div class="qhead">
+    <span class="qnum">Q40</span>
+    <div class="qtext">What is the bus architecture of an ARINC 429 bus?<span class="th">สถาปัตยกรรมบัสของ ARINC 429 เป็นแบบใด?</span></div>
+    
+  </div>
+  <div class="answer-line"><strong>Answer:</strong> Unidirectional, two-wire differential bus: one transmitter/source to one or more receivers/sinks <span class="th">บัสแบบทิศทางเดียว (unidirectional) ใช้สายคู่แบบดิฟเฟอเรนเชียล โดยมีตัวส่งสัญญาณหนึ่งตัวไปยังตัวรับหนึ่งตัวหรือมากกว่า</span></div>
+  <div class="explain open">
+    ARINC 429 is unidirectional and uses a two-wire differential bus. A source transmits to one or more receivers; separate ports/couplers/cables are needed for an LRU that must both transmit and receive.
+    <span class="th">ARINC 429 เป็นบัสทิศทางเดียวและใช้สายคู่แบบดิฟเฟอเรนเชียล แหล่งสัญญาณ (source) จะส่งไปยังตัวรับ (receiver) หนึ่งตัวหรือมากกว่า สำหรับ LRU ที่ต้องทั้งส่งและรับ จำเป็นต้องมีพอร์ต/คัปเปลอร์/สายสัญญาณแยกต่างหาก</span>
+    <span class="ref">B1 p.83–84; B2 p.83–84 — ARINC 429</span>
+  </div>
+</div>
+
+  <div class="section-title">CORE MEMORY HOOKS / จุดจำสำคัญ</div>
+  <ul class="hooks">
+    <li>Fiber TX = IR LED/laser<span class="th">ตัวส่งไฟเบอร์ = LED/เลเซอร์อินฟราเรด</span></li>
+<li>Fiber core = silica glass<span class="th">แกนไฟเบอร์ = แก้วซิลิกา</span></li>
+<li>CRT raster = sawtooth/ramp<span class="th">ราสเตอร์ CRT = ฟันเลื่อย/แรมป์</span></li>
+<li>Wrist strap = 1 MΩ<span class="th">สายรัดข้อมือ = 1 MΩ</span></li>
+<li>Most positive = Air<span class="th">ประจุบวกมากที่สุด = อากาศ</span></li>
+<li>Least positive = Paper<span class="th">ประจุบวกน้อยที่สุด = กระดาษ</span></li>
+<li>RS232 20 ms = 50 bit/s<span class="th">RS232 20 ms = 50 bit/s</span></li>
+<li>AND = all inputs 1<span class="th">AND = อินพุตทุกตัวเป็น 1</span></li>
+<li>NAND output 0 = all inputs 1<span class="th">เอาต์พุต NAND เป็น 0 = อินพุตทุกตัวเป็น 1</span></li>
+<li>OTP PROM = one-time programmable<span class="th">OTP PROM = โปรแกรมได้ครั้งเดียว</span></li>
+<li>Third harmonic = 3× fundamental<span class="th">ฮาร์มอนิกที่สาม = 3 เท่าของความถี่มูลฐาน</span></li>
+<li>IRS = Inertial Reference System<span class="th">IRS = Inertial Reference System</span></li>
+<li>FBW = Fly-by-Wire<span class="th">FBW = Fly-by-Wire</span></li>
+<li>GPS receiver = User Segment<span class="th">เครื่องรับ GPS = User Segment</span></li>
+<li>ADC = analogue in, digital out<span class="th">ADC = อินพุตอนาล็อก เอาต์พุตดิจิทัล</span></li>
+<li>RZ = 2× bandwidth of NRZ<span class="th">RZ = แบนด์วิดท์มากกว่า NRZ 2 เท่า</span></li>
+<li>ARINC 429 = unidirectional, 2-wire differential, 1 TX → many RX<span class="th">ARINC 429 = ทิศทางเดียว สายคู่ดิฟเฟอเรนเชียล TX 1 ตัว → RX ได้หลายตัว</span></li>
+  </ul>
+</div>
+
+<footer class="credit">Study reference for personal EASA Part-66 exam preparation.</footer>
+
+<script>
+document.getElementById('thToggle').addEventListener('change', function(){
+  document.body.classList.toggle('hide-th', !this.checked);
+});
+</script>
+</body>
+</html>

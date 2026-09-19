@@ -1,0 +1,1122 @@
+[
+  {
+    "id": 1,
+    "en": "In which colour is a \"caution indication\" displayed on the EICAS monitor?",
+    "th": "ไฟเตือนระดับ \"caution\" บนจอ EICAS แสดงเป็นสีอะไร?",
+    "options": [
+      {
+        "en": "Amber",
+        "th": "สีเหลืองอำพัน"
+      },
+      {
+        "en": "Red",
+        "th": "สีแดง"
+      },
+      {
+        "en": "White",
+        "th": "สีขาว"
+      },
+      {
+        "en": "Green",
+        "th": "สีเขียว"
+      }
+    ],
+    "correct": 0,
+    "analysis_en": "The uploaded B1/B2 EICAS text confirms EICAS displays crew alerts and that CAS messages are colour coded, but the searchable book text does not explicitly give the caution-to-amber mapping. Treat this as the expected exam answer, not a directly quoted book statement.",
+    "analysis_th": "เนื้อหา B1/B2 เรื่อง EICAS ยืนยันว่า EICAS แสดงการแจ้งเตือนของลูกเรือ และข้อความ CAS มีการเข้ารหัสสี แต่ข้อความที่ค้นหาได้ในหนังสือไม่ได้ระบุความสัมพันธ์ระหว่าง caution กับสีเหลืองอำพันไว้อย่างชัดเจน ให้ถือเป็นคำตอบที่คาดว่าจะออกสอบ ไม่ใช่ข้อความที่ยกมาโดยตรงจากหนังสือ",
+    "reference": "B1 p.224–225; B2 p.254–255 — EICAS",
+    "flagged": true
+  },
+  {
+    "id": 2,
+    "en": "What does PFD mean?",
+    "th": "PFD ย่อมาจากอะไร?",
+    "options": [
+      {
+        "en": "Primary Flight Display",
+        "th": "Primary Flight Display (จอแสดงข้อมูลการบินหลัก)"
+      },
+      {
+        "en": "Primary Feedback Display",
+        "th": "Primary Feedback Display"
+      },
+      {
+        "en": "Programmable Flight Data",
+        "th": "Programmable Flight Data"
+      },
+      {
+        "en": "Personal Flight Display",
+        "th": "Personal Flight Display"
+      }
+    ],
+    "correct": 0,
+    "analysis_en": "The EFIS section explicitly names the Primary Flight Display (PFD).",
+    "analysis_th": "หัวข้อ EFIS ระบุชื่อ Primary Flight Display (PFD) ไว้อย่างชัดเจน",
+    "reference": "B1 p.219–220; B2 p.249–250 — EFIS",
+    "flagged": false
+  },
+  {
+    "id": 3,
+    "en": "In which colour is a \"warning indication\" displayed on the EICAS monitor?",
+    "th": "ไฟเตือนระดับ \"warning\" บนจอ EICAS แสดงเป็นสีอะไร?",
+    "options": [
+      {
+        "en": "Red",
+        "th": "สีแดง"
+      },
+      {
+        "en": "Amber",
+        "th": "สีเหลืองอำพัน"
+      },
+      {
+        "en": "White",
+        "th": "สีขาว"
+      },
+      {
+        "en": "Green",
+        "th": "สีเขียว"
+      }
+    ],
+    "correct": 0,
+    "analysis_en": "Same source limitation as Q1: the book text confirms colour-coded CAS/EICAS alerts but the searchable text does not explicitly state the warning/red mapping. Treat Red as the expected exam answer and verify against any instructor slide/figure.",
+    "analysis_th": "ข้อจำกัดของแหล่งข้อมูลเช่นเดียวกับข้อ 1: เนื้อหาหนังสือยืนยันว่าการแจ้งเตือน CAS/EICAS มีการเข้ารหัสสี แต่ไม่ได้ระบุความสัมพันธ์ระหว่าง warning กับสีแดงไว้อย่างชัดเจน ให้ถือว่าสีแดงเป็นคำตอบที่คาดว่าจะออกสอบ และควรตรวจสอบเพิ่มเติมกับสไลด์/รูปของผู้สอน",
+    "reference": "B1 p.224–225; B2 p.254–255 — EICAS",
+    "flagged": true
+  },
+  {
+    "id": 4,
+    "en": "What does EADI mean?",
+    "th": "EADI ย่อมาจากอะไร?",
+    "options": [
+      {
+        "en": "Electronic Attitude Director Indicator",
+        "th": "Electronic Attitude Director Indicator"
+      },
+      {
+        "en": "Electronic Air Data Indicator",
+        "th": "Electronic Air Data Indicator"
+      },
+      {
+        "en": "Electronic Attitude Data Instrument",
+        "th": "Electronic Attitude Data Instrument"
+      },
+      {
+        "en": "Emergency Attitude Direction Indicator",
+        "th": "Emergency Attitude Direction Indicator"
+      }
+    ],
+    "correct": 0,
+    "analysis_en": "The B2 abbreviations list explicitly gives EADI = Electronic Attitude Director Indicator. The EFIS prose elsewhere uses \"Electronic Attitude Direction Indicator\"; for this exact exam wording, memorize the abbreviation-list wording.",
+    "analysis_th": "รายการคำย่อใน B2 ระบุไว้ชัดเจนว่า EADI = Electronic Attitude Director Indicator ส่วนเนื้อหา EFIS ในที่อื่นใช้คำว่า \"Electronic Attitude Direction Indicator\" — สำหรับคำถามข้อสอบนี้ ให้จำคำในรายการคำย่อเป็นหลัก",
+    "reference": "B2 p.269; B1 abbreviation section around p.239",
+    "flagged": false
+  },
+  {
+    "id": 5,
+    "en": "What kind of light is used in a fibre optic system of an aircraft?",
+    "th": "ระบบไฟเบอร์ออปติกของอากาศยานใช้แสงชนิดใด?",
+    "options": [
+      {
+        "en": "Infra-red light",
+        "th": "แสงอินฟราเรด"
+      },
+      {
+        "en": "Ultraviolet light",
+        "th": "แสงอัลตราไวโอเลต"
+      },
+      {
+        "en": "Visible white light",
+        "th": "แสงขาวที่มองเห็นได้"
+      },
+      {
+        "en": "X-ray light",
+        "th": "รังสีเอกซ์"
+      }
+    ],
+    "correct": 0,
+    "analysis_en": "The optical transmitter is described as an infra-red LED or a low-power semiconductor laser diode.",
+    "analysis_th": "ตัวส่งสัญญาณแสงอธิบายว่าเป็น LED อินฟราเรด หรือไดโอดเลเซอร์สารกึ่งตัวนำกำลังต่ำ",
+    "reference": "B1 p.152; B2 p.182 — §5.10.5",
+    "flagged": false
+  },
+  {
+    "id": 6,
+    "en": "Which material is used for the core of a fibre optic?",
+    "th": "แกนกลาง (core) ของไฟเบอร์ออปติกทำจากวัสดุใด?",
+    "options": [
+      {
+        "en": "Silica glass",
+        "th": "แก้วซิลิกา"
+      },
+      {
+        "en": "Copper",
+        "th": "ทองแดง"
+      },
+      {
+        "en": "Polyethylene",
+        "th": "โพลิเอทิลีน"
+      },
+      {
+        "en": "Aluminium oxide",
+        "th": "อะลูมิเนียมออกไซด์"
+      }
+    ],
+    "correct": 0,
+    "analysis_en": "The book states that an optical fibre consists essentially of a cylindrical silica glass core surrounded by glass cladding.",
+    "analysis_th": "หนังสือระบุว่าเส้นใยแก้วนำแสงประกอบด้วยแกนแก้วซิลิกาทรงกระบอกที่ล้อมรอบด้วยแคลดดิ้งแก้ว (glass cladding)",
+    "reference": "B1 p.148; B2 p.178 — §5.10.2",
+    "flagged": false
+  },
+  {
+    "id": 7,
+    "en": "Which optical electronic device is used in a fibre optic transmitter?",
+    "th": "อุปกรณ์อิเล็กทรอนิกส์เชิงแสงชนิดใดที่ใช้ในตัวส่งสัญญาณ (transmitter) ของไฟเบอร์ออปติก?",
+    "options": [
+      {
+        "en": "Infra-red LED or low-power semiconductor laser diode",
+        "th": "LED อินฟราเรด หรือไดโอดเลเซอร์สารกึ่งตัวนำกำลังต่ำ"
+      },
+      {
+        "en": "Photodiode",
+        "th": "โฟโต้ไดโอด"
+      },
+      {
+        "en": "Phototransistor",
+        "th": "โฟโต้ทรานซิสเตอร์"
+      },
+      {
+        "en": "Photomultiplier tube",
+        "th": "หลอดโฟโต้มัลติพลายเออร์"
+      }
+    ],
+    "correct": 0,
+    "analysis_en": "The transmitter uses an IR LED or low-power semiconductor laser diode; the receiver uses a photodiode or phototransistor. Do not swap TX and RX.",
+    "analysis_th": "ตัวส่ง (TX) ใช้ LED อินฟราเรดหรือไดโอดเลเซอร์กำลังต่ำ ส่วนตัวรับ (RX) ใช้โฟโต้ไดโอดหรือโฟโต้ทรานซิสเตอร์ — ห้ามสลับ TX กับ RX",
+    "reference": "B1 p.152; B2 p.182 — §5.10.5",
+    "flagged": false
+  },
+  {
+    "id": 8,
+    "en": "How is a colour picture on a CRT generated?",
+    "th": "ภาพสีบนจอ CRT ถูกสร้างขึ้นได้อย่างไร?",
+    "options": [
+      {
+        "en": "Three cathodes/electron beams with red, green and blue phosphors at varying intensities (additive colour)",
+        "th": "แคโทด/ลำอิเล็กตรอนสามชุดยิงไปยังสารเรืองแสงสีแดง เขียว น้ำเงิน โดยปรับความเข้มต่างกัน (ผสมสีแบบบวก)"
+      },
+      {
+        "en": "A single cathode with a rotating colour filter",
+        "th": "แคโทดชุดเดียวพร้อมฟิลเตอร์สีหมุน"
+      },
+      {
+        "en": "Two cathodes with cyan/magenta/yellow phosphors",
+        "th": "แคโทดสองชุดกับสารเรืองแสง CMY"
+      },
+      {
+        "en": "A liquid-crystal shutter over one electron beam",
+        "th": "ชัตเตอร์คริสตัลเหลวคลุมลำอิเล็กตรอนชุดเดียว"
+      }
+    ],
+    "correct": 0,
+    "analysis_en": "The book describes three video signals feeding three cathodes, each beam focused on its corresponding colour phosphor. Different RGB intensities generate the range of colours.",
+    "analysis_th": "หนังสืออธิบายว่าสัญญาณวิดีโอสามสัญญาณป้อนเข้าสู่แคโทดสามชุด แต่ละลำแสงโฟกัสไปยังสารเรืองแสงสีที่สอดคล้องกัน ความเข้มของสี RGB ที่แตกต่างกันทำให้เกิดสีที่หลากหลาย",
+    "reference": "B1 p.164; B2 p.194 — Colour Displays",
+    "flagged": false
+  },
+  {
+    "id": 9,
+    "en": "Which voltage waveform does a CRT use to produce the scanned raster?",
+    "th": "จอ CRT ใช้รูปคลื่นแรงดันไฟฟ้าแบบใดในการสร้างภาพแบบราสเตอร์ (scanned raster)?",
+    "options": [
+      {
+        "en": "Ramp (sawtooth) waveforms on the X and Y plates",
+        "th": "รูปคลื่นแบบแรมป์/ฟันเลื่อยที่แผ่น X และ Y"
+      },
+      {
+        "en": "Square wave",
+        "th": "คลื่นสี่เหลี่ยม"
+      },
+      {
+        "en": "Sine wave",
+        "th": "คลื่นไซน์"
+      },
+      {
+        "en": "Pulse-width modulated wave",
+        "th": "คลื่นแบบมอดูเลตความกว้างพัลส์"
+      }
+    ],
+    "correct": 0,
+    "analysis_en": "The book states that the X and Y plate waveforms required to produce the scanned raster are ramp (sawtooth) shaped and have different frequencies.",
+    "analysis_th": "หนังสือระบุว่ารูปคลื่นที่แผ่น X และ Y ที่จำเป็นในการสร้างราสเตอร์แบบสแกนมีลักษณะเป็นแรมป์ (ฟันเลื่อย) และมีความถี่ต่างกัน",
+    "reference": "B1 p.162; B2 p.192 — Scanning",
+    "flagged": false
+  },
+  {
+    "id": 10,
+    "en": "Which is the most positive material in the triboelectric series?",
+    "th": "วัสดุใดมีประจุบวกมากที่สุดในอนุกรมไทรโบอิเล็กทริก (triboelectric series)?",
+    "options": [
+      {
+        "en": "Air",
+        "th": "อากาศ"
+      },
+      {
+        "en": "Glass",
+        "th": "แก้ว"
+      },
+      {
+        "en": "Nylon",
+        "th": "ไนลอน"
+      },
+      {
+        "en": "Paper",
+        "th": "กระดาษ"
+      }
+    ],
+    "correct": 0,
+    "analysis_en": "In the book's triboelectric series, Air is at the most-positive end; Paper is at the least-positive end.",
+    "analysis_th": "ในอนุกรมไทรโบอิเล็กทริกของหนังสือ อากาศอยู่ปลายด้านบวกที่สุด ส่วนกระดาษอยู่ปลายด้านลบที่สุด",
+    "reference": "B1 p.176; B2 p.206 — §5.12.3",
+    "flagged": false
+  },
+  {
+    "id": 11,
+    "en": "When will a high electrostatic voltage be produced?",
+    "th": "แรงดันไฟฟ้าสถิตสูงจะเกิดขึ้นเมื่อใด?",
+    "options": [
+      {
+        "en": "At low / very low relative humidity",
+        "th": "เมื่อความชื้นสัมพัทธ์ต่ำ / ต่ำมาก"
+      },
+      {
+        "en": "At high relative humidity",
+        "th": "เมื่อความชื้นสัมพัทธ์สูง"
+      },
+      {
+        "en": "At standard atmospheric pressure",
+        "th": "เมื่อความกดอากาศมาตรฐาน"
+      },
+      {
+        "en": "At high ambient temperature",
+        "th": "เมื่ออุณหภูมิแวดล้อมสูง"
+      }
+    ],
+    "correct": 0,
+    "analysis_en": "The book discusses the strong effect of relative humidity on static charge; dry/low-humidity conditions permit higher electrostatic charge accumulation.",
+    "analysis_th": "หนังสือกล่าวถึงผลกระทบอย่างมากของความชื้นสัมพัทธ์ต่อประจุไฟฟ้าสถิต สภาวะแห้ง/ความชื้นต่ำเอื้อให้เกิดการสะสมประจุไฟฟ้าสถิตสูงขึ้น",
+    "reference": "B1 p.177; B2 p.207 — Static Electricity / Triboelectric series",
+    "flagged": false
+  },
+  {
+    "id": 12,
+    "en": "What is the resistance for a ground lead, i.e. wrist strap, when working with ESD?",
+    "th": "ค่าความต้านทานของสายกราวด์ (ground lead) เช่น สายรัดข้อมือ (wrist strap) เมื่อทำงานเกี่ยวกับ ESD คือเท่าใด?",
+    "options": [
+      {
+        "en": "1 MΩ",
+        "th": "1 MΩ"
+      },
+      {
+        "en": "1 kΩ",
+        "th": "1 kΩ"
+      },
+      {
+        "en": "100 Ω",
+        "th": "100 Ω"
+      },
+      {
+        "en": "10 MΩ",
+        "th": "10 MΩ"
+      }
+    ],
+    "correct": 0,
+    "analysis_en": "The wrist-strap ground lead includes an integral 1 MΩ resistor to limit current and reduce shock hazard.",
+    "analysis_th": "สายกราวด์ของสายรัดข้อมือมีตัวต้านทาน 1 MΩ ในตัว เพื่อจำกัดกระแสไฟฟ้าและลดอันตรายจากไฟฟ้าช็อต",
+    "reference": "B1 p.180; B2 p.210 — §5.12.6",
+    "flagged": false
+  },
+  {
+    "id": 13,
+    "en": "Which is the least positive material in the triboelectric series?",
+    "th": "วัสดุใดมีประจุบวกน้อยที่สุดในอนุกรมไทรโบอิเล็กทริก?",
+    "options": [
+      {
+        "en": "Paper",
+        "th": "กระดาษ"
+      },
+      {
+        "en": "Air",
+        "th": "อากาศ"
+      },
+      {
+        "en": "Glass",
+        "th": "แก้ว"
+      },
+      {
+        "en": "Nylon",
+        "th": "ไนลอน"
+      }
+    ],
+    "correct": 0,
+    "analysis_en": "Paper is at the least-positive end of the listed series.",
+    "analysis_th": "กระดาษอยู่ปลายด้านที่มีประจุบวกน้อยที่สุดของอนุกรมที่ระบุไว้ในหนังสือ",
+    "reference": "B1 p.176; B2 p.206 — §5.12.3",
+    "flagged": false
+  },
+  {
+    "id": 14,
+    "en": "For which purpose is the checksum being used?",
+    "th": "checksum ถูกใช้เพื่อวัตถุประสงค์ใด?",
+    "options": [
+      {
+        "en": "To detect errors / indicate that a file or transmitted data has become corrupt",
+        "th": "เพื่อตรวจจับข้อผิดพลาด / บ่งชี้ว่าไฟล์หรือข้อมูลที่ส่งเกิดความเสียหาย"
+      },
+      {
+        "en": "To encrypt the data",
+        "th": "เพื่อเข้ารหัสข้อมูล"
+      },
+      {
+        "en": "To compress the data",
+        "th": "เพื่อบีบอัดข้อมูล"
+      },
+      {
+        "en": "To increase transmission speed",
+        "th": "เพื่อเพิ่มความเร็วในการส่งข้อมูล"
+      }
+    ],
+    "correct": 0,
+    "analysis_en": "The software section says checksums are used to check data files and executable code for errors; the data-bus section also uses a checksum/parity check to detect transmission errors.",
+    "analysis_th": "หัวข้อซอฟต์แวร์ระบุว่า checksum ใช้ตรวจสอบไฟล์ข้อมูลและโค้ดที่ทำงานได้ (executable code) เพื่อหาข้อผิดพลาด ส่วนหัวข้อ data bus ก็ใช้ checksum/parity check เพื่อตรวจจับข้อผิดพลาดในการส่งสัญญาณเช่นกัน",
+    "reference": "B1 p.82 and p.198; B2 p.82 and p.228 — Data verification",
+    "flagged": false
+  },
+  {
+    "id": 15,
+    "en": "What is the maximum number of failures per flight hour allowed for certification of Level A software (acc. to DO-178)?",
+    "th": "จำนวนความล้มเหลวสูงสุดต่อชั่วโมงบินที่อนุญาตสำหรับการรับรองซอฟต์แวร์ระดับ Level A (ตามมาตรฐาน DO-178) คือเท่าใด?",
+    "options": [
+      {
+        "en": "1 × 10⁻9 per flight hour (industry-standard figure — not stated in the uploaded book text)",
+        "th": "1 × 10⁻9 ต่อชั่วโมงบิน (ตัวเลขมาตรฐานอุตสาหกรรม — ไม่ได้ระบุไว้ในเนื้อหาหนังสือที่อัปโหลด)"
+      },
+      {
+        "en": "1 × 10⁻7 per flight hour",
+        "th": "1 × 10⁻7 ต่อชั่วโมงบิน"
+      },
+      {
+        "en": "1 × 10⁻5 per flight hour",
+        "th": "1 × 10⁻5 ต่อชั่วโมงบิน"
+      },
+      {
+        "en": "1 × 10⁻3 per flight hour",
+        "th": "1 × 10⁻3 ต่อชั่วโมงบิน"
+      }
+    ],
+    "correct": 0,
+    "analysis_en": "The book states Level A is the highest criticality and corresponds to catastrophic failure, but the numerical failure-per-flight-hour value is NOT exposed in the searchable B1/B2 text. The 1×10⁻9 figure is the widely used industry/DO-178C reference value, shown here for completeness, not as a book-verified fact. Do not treat it as a direct quote from your books.",
+    "analysis_th": "หนังสือระบุว่า Level A เป็นระดับความรุนแรงสูงสุด สอดคล้องกับความล้มเหลวขั้น catastrophic แต่ไม่มีตัวเลขความล้มเหลวต่อชั่วโมงบินปรากฏในเนื้อหา B1/B2 ที่ค้นหาได้ ตัวเลข 1×10⁻9 เป็นค่าอ้างอิงมาตรฐานอุตสาหกรรม/DO-178C ที่ใช้กันทั่วไป แสดงไว้เพื่อความสมบูรณ์เท่านั้น ไม่ใช่ข้อเท็จจริงที่ตรวจสอบได้จากหนังสือ ห้ามถือว่าเป็นคำพูดที่ยกมาโดยตรงจากหนังสือของคุณ",
+    "reference": "B1 p.190–191; B2 p.220–221 — §5.13.1–5.13.2",
+    "flagged": true
+  },
+  {
+    "id": 16,
+    "en": "In which failure category according to DO-178B is the software of the inflight entertainment system (IFE) classified?",
+    "th": "ตามมาตรฐาน DO-178B ซอฟต์แวร์ของระบบความบันเทิงบนเครื่องบิน (IFE) จัดอยู่ในประเภทความล้มเหลวระดับใด?",
+    "options": [
+      {
+        "en": "Level E",
+        "th": "Level E"
+      },
+      {
+        "en": "Level A",
+        "th": "Level A"
+      },
+      {
+        "en": "Level C",
+        "th": "Level C"
+      },
+      {
+        "en": "Level D",
+        "th": "Level D"
+      }
+    ],
+    "correct": 0,
+    "analysis_en": "The book explicitly identifies IFE as an example of User Modifiable Software, and Figure 13-3 is the book's table of software levels. Because the figure's row text is not exposed in the searchable text, this answer is flagged rather than presented as directly text-verified.",
+    "analysis_th": "หนังสือระบุชัดเจนว่า IFE เป็นตัวอย่างของ User Modifiable Software และ Figure 13-3 คือตารางระดับซอฟต์แวร์ของหนังสือ เนื่องจากข้อความในรูปนี้ไม่ปรากฏในส่วนที่ค้นหาได้ คำตอบนี้จึงถูกทำเครื่องหมายไว้ แทนที่จะนำเสนอว่าตรวจสอบได้โดยตรงจากข้อความ",
+    "reference": "B1 p.193, Figure 13-3 p.190–191; B2 p.223, Figure 13-3 p.220–221",
+    "flagged": true
+  },
+  {
+    "id": 17,
+    "en": "What is the transmission rate of an RS232 interface, if the bit width is 20 ms?",
+    "th": "อัตราการส่งข้อมูล (transmission rate) ของอินเทอร์เฟส RS232 คือเท่าใด หากความกว้างของบิต (bit width) เท่ากับ 20 ms?",
+    "options": [
+      {
+        "en": "50 bit/s",
+        "th": "50 bit/s"
+      },
+      {
+        "en": "20 bit/s",
+        "th": "20 bit/s"
+      },
+      {
+        "en": "100 bit/s",
+        "th": "100 bit/s"
+      },
+      {
+        "en": "500 bit/s",
+        "th": "500 bit/s"
+      }
+    ],
+    "correct": 0,
+    "analysis_en": "The book gives the direct example: 20 ms bit width results in 50 bit/s.",
+    "analysis_th": "หนังสือให้ตัวอย่างไว้โดยตรงว่าความกว้างบิต 20 ms ให้อัตรา 50 bit/s",
+    "reference": "B1 p.80; B2 p.80 — RS232 bit synchronisation",
+    "flagged": false
+  },
+  {
+    "id": 18,
+    "en": "Which logic gate uses the OR symbol with an extra curved line on the input side?",
+    "th": "เกทลอจิกใดใช้สัญลักษณ์คล้ายเกท OR ที่มีเส้นโค้งเพิ่มเติมทางด้านอินพุต?",
+    "options": [
+      {
+        "en": "Exclusive-OR (XOR) gate",
+        "th": "เกท Exclusive-OR (XOR)"
+      },
+      {
+        "en": "NOR gate",
+        "th": "เกท NOR"
+      },
+      {
+        "en": "NAND gate",
+        "th": "เกท NAND"
+      },
+      {
+        "en": "Buffer gate",
+        "th": "เกท Buffer"
+      }
+    ],
+    "correct": 0,
+    "analysis_en": "The exam image shows the OR-shaped gate with the additional curved line on the input side, which is the XOR symbol. The book's Figure 5-8 is the XOR symbol and truth table.",
+    "analysis_th": "ภาพในข้อสอบแสดงสัญลักษณ์รูปทรงคล้ายเกท OR ที่มีเส้นโค้งเพิ่มเติมทางด้านอินพุต ซึ่งเป็นสัญลักษณ์ของ XOR รูปที่ 5-8 ในหนังสือคือสัญลักษณ์และตารางค่าความจริงของ XOR",
+    "reference": "B1 p.92; B2 p.92 — Figure 5-8",
+    "flagged": false
+  },
+  {
+    "id": 19,
+    "en": "When does an AND-gate produce a logic 1 at the output?",
+    "th": "เกท AND จะให้เอาต์พุตเป็นลอจิก 1 เมื่อใด?",
+    "options": [
+      {
+        "en": "Only when all inputs are simultaneously logic 1",
+        "th": "เฉพาะเมื่ออินพุตทุกตัวเป็นลอจิก 1 พร้อมกันเท่านั้น"
+      },
+      {
+        "en": "When any one input is logic 1",
+        "th": "เมื่ออินพุตตัวใดตัวหนึ่งเป็นลอจิก 1"
+      },
+      {
+        "en": "When all inputs are logic 0",
+        "th": "เมื่ออินพุตทุกตัวเป็นลอจิก 0"
+      },
+      {
+        "en": "When there are no inputs",
+        "th": "เมื่อไม่มีอินพุตเลย"
+      }
+    ],
+    "correct": 0,
+    "analysis_en": "This is the book's exact functional description of an AND gate.",
+    "analysis_th": "นี่คือคำอธิบายการทำงานของเกท AND ตามที่หนังสือระบุไว้ตรงตัว",
+    "reference": "B1 p.90; B2 p.90 — AND Function",
+    "flagged": false
+  },
+  {
+    "id": 20,
+    "en": "When does a NAND-function produce a logic 0 at the output?",
+    "th": "ฟังก์ชัน NAND จะให้เอาต์พุตเป็นลอจิก 0 เมื่อใด?",
+    "options": [
+      {
+        "en": "When all inputs are logic 1",
+        "th": "เมื่ออินพุตทุกตัวเป็นลอจิก 1"
+      },
+      {
+        "en": "When any input is logic 0",
+        "th": "เมื่ออินพุตตัวใดตัวหนึ่งเป็นลอจิก 0"
+      },
+      {
+        "en": "When all inputs are logic 0",
+        "th": "เมื่ออินพุตทุกตัวเป็นลอจิก 0"
+      },
+      {
+        "en": "Only when one input is logic 1",
+        "th": "เมื่อมีอินพุตเป็นลอจิก 1 เพียงตัวเดียว"
+      }
+    ],
+    "correct": 0,
+    "analysis_en": "NAND is an AND function with an inverted output. Therefore the output becomes 0 only for the all-1 input combination.",
+    "analysis_th": "NAND คือฟังก์ชัน AND ที่มีเอาต์พุตกลับสถานะ (inverted) ดังนั้นเอาต์พุตจะเป็น 0 เฉพาะเมื่ออินพุตทุกตัวเป็น 1 เท่านั้น",
+    "reference": "B1 p.91; B2 p.91 — NAND Function",
+    "flagged": false
+  },
+  {
+    "id": 21,
+    "en": "Which of the following EPROMs is only one-time programmable?",
+    "th": "EPROM ชนิดใดที่สามารถโปรแกรมได้เพียงครั้งเดียว (one-time programmable)?",
+    "options": [
+      {
+        "en": "OTP EPROM / OTP PROM",
+        "th": "OTP EPROM / OTP PROM"
+      },
+      {
+        "en": "EEPROM",
+        "th": "EEPROM"
+      },
+      {
+        "en": "Flash memory",
+        "th": "หน่วยความจำแฟลช"
+      },
+      {
+        "en": "UV-erasable EPROM",
+        "th": "EPROM ที่ลบด้วยแสง UV"
+      }
+    ],
+    "correct": 0,
+    "analysis_en": "The book explicitly describes OTP EPROM as one-time programmable; the fuse links are blown by a current pulse and the programmed device cannot be returned to its original state.",
+    "analysis_th": "หนังสืออธิบายว่า OTP EPROM สามารถโปรแกรมได้เพียงครั้งเดียว โดย fuse link จะถูกทำให้ขาดด้วยพัลส์กระแสไฟฟ้า และอุปกรณ์ที่ถูกโปรแกรมแล้วไม่สามารถกลับสู่สถานะเดิมได้",
+    "reference": "B1 p.138; B2 p.138 — Read only memory",
+    "flagged": false
+  },
+  {
+    "id": 22,
+    "en": "Which statement about the advantage of a semiconductor memory is correct?",
+    "th": "ข้อความใดเกี่ยวกับข้อดีของหน่วยความจำสารกึ่งตัวนำ (semiconductor memory) ถูกต้อง?",
+    "options": [
+      {
+        "en": "Data can be retrieved from all locations with equal ease (random access), and MOS memory uses significantly less power than bipolar memory",
+        "th": "สามารถเรียกข้อมูลจากทุกตำแหน่งได้ง่ายเท่ากัน (random access) และหน่วยความจำ MOS ใช้พลังงานน้อยกว่าหน่วยความจำแบบ bipolar อย่างมีนัยสำคัญ"
+      },
+      {
+        "en": "MOS memory uses more power than bipolar memory",
+        "th": "หน่วยความจำ MOS ใช้พลังงานมากกว่าหน่วยความจำแบบ bipolar"
+      },
+      {
+        "en": "Data can only be accessed sequentially",
+        "th": "สามารถเข้าถึงข้อมูลได้ตามลำดับเท่านั้น"
+      },
+      {
+        "en": "It requires mechanical moving parts to access data",
+        "th": "ต้องใช้ชิ้นส่วนกลไกเคลื่อนที่ในการเข้าถึงข้อมูล"
+      }
+    ],
+    "correct": 0,
+    "analysis_en": "Because the exam gives no answer choices in the source PDF, more than one statement could sound plausible. These options were built around the safest book-derived facts: the random-access property and the lower power requirement of MOS versus bipolar memory. If you obtain the real exam choices, send them and this item can be tightened.",
+    "analysis_th": "เนื่องจากข้อสอบต้นฉบับไม่มีตัวเลือกให้ ตัวเลือกในแบบทดสอบนี้จึงถูกสร้างขึ้นจากข้อเท็จจริงที่ปลอดภัยที่สุดจากหนังสือ ได้แก่ คุณสมบัติ random access และการใช้พลังงานที่ต่ำกว่าของ MOS เมื่อเทียบกับ bipolar หากได้ตัวเลือกจริงจากข้อสอบ ส่งมาเพื่อปรับปรุงข้อนี้ให้แม่นยำขึ้นได้",
+    "reference": "B1 p.134–135; B2 p.134–135 — RAM",
+    "flagged": true
+  },
+  {
+    "id": 23,
+    "en": "Mark the correct statement about a ROM.",
+    "th": "ข้อความใดถูกต้องเกี่ยวกับ ROM?",
+    "options": [
+      {
+        "en": "ROM is non-volatile; once programmed it can be read from but not written to in normal operation",
+        "th": "ROM เป็นหน่วยความจำแบบไม่ลบเลือน (non-volatile) เมื่อถูกโปรแกรมแล้วสามารถอ่านได้เท่านั้น ไม่สามารถเขียนทับได้ในการใช้งานปกติ"
+      },
+      {
+        "en": "ROM is volatile and loses its data when power is removed",
+        "th": "ROM เป็นหน่วยความจำแบบลบเลือน (volatile) และข้อมูลจะหายไปเมื่อตัดไฟ"
+      },
+      {
+        "en": "ROM can be freely rewritten during normal operation",
+        "th": "ROM สามารถเขียนทับได้อย่างอิสระในการใช้งานปกติ"
+      },
+      {
+        "en": "ROM is used only for temporary calculations",
+        "th": "ROM ใช้สำหรับการคำนวณชั่วคราวเท่านั้น"
+      }
+    ],
+    "correct": 0,
+    "analysis_en": "The book explicitly says ROM contents are not lost when supply is disconnected and that, once programmed, ROM can only be read from and not written to.",
+    "analysis_th": "หนังสือระบุชัดเจนว่าข้อมูลใน ROM จะไม่สูญหายเมื่อตัดไฟเลี้ยง และเมื่อถูกโปรแกรมแล้ว ROM จะอ่านได้เท่านั้น ไม่สามารถเขียนได้",
+    "reference": "B1 p.138; B2 p.138 — Read only memory",
+    "flagged": true
+  },
+  {
+    "id": 24,
+    "en": "What is the characteristic of an EEPROM?",
+    "th": "คุณสมบัติของ EEPROM คืออะไร?",
+    "options": [
+      {
+        "en": "It can be electrically erased/reprogrammed and both read and written; writing is much slower than reading",
+        "th": "สามารถลบและโปรแกรมใหม่ได้ทางไฟฟ้า อ่านและเขียนได้ทั้งคู่ แต่การเขียนช้ากว่าการอ่านมาก"
+      },
+      {
+        "en": "It can only be erased once and never reprogrammed",
+        "th": "ลบได้เพียงครั้งเดียวและไม่สามารถโปรแกรมใหม่ได้"
+      },
+      {
+        "en": "It can only be erased using UV light",
+        "th": "ลบได้ด้วยแสง UV เท่านั้น"
+      },
+      {
+        "en": "Read and write speeds are equal",
+        "th": "ความเร็วในการอ่านและเขียนเท่ากัน"
+      }
+    ],
+    "correct": 0,
+    "analysis_en": "The book calls it Electrically Erasable PROM (EEPROM), also known as Flash memory, and states that it can both be read and written. It is not suitable for normal RAM read/write use because writing is typically much slower.",
+    "analysis_th": "หนังสือเรียกอุปกรณ์นี้ว่า Electrically Erasable PROM (EEPROM) หรือที่รู้จักกันในชื่อ Flash memory และระบุว่าสามารถทั้งอ่านและเขียนได้ แต่ไม่เหมาะสำหรับใช้งานแบบ RAM ทั่วไป เนื่องจากการเขียนมักช้ากว่ามาก",
+    "reference": "B1 p.139; B2 p.139 — EEPROM",
+    "flagged": false
+  },
+  {
+    "id": 25,
+    "en": "Which resistance value for the bonding of radar equipment is required?",
+    "th": "ค่าความต้านทานสำหรับการบอนดิ้ง (bonding) ของอุปกรณ์เรดาร์ที่กำหนดไว้คือเท่าใด?",
+    "options": [
+      {
+        "en": "Less than 0.001 Ω to 0.003 Ω",
+        "th": "น้อยกว่า 0.001 Ω ถึง 0.003 Ω"
+      },
+      {
+        "en": "Less than 1 Ω",
+        "th": "น้อยกว่า 1 Ω"
+      },
+      {
+        "en": "Less than 10 Ω",
+        "th": "น้อยกว่า 10 Ω"
+      },
+      {
+        "en": "Less than 0.1 Ω",
+        "th": "น้อยกว่า 0.1 Ω"
+      }
+    ],
+    "correct": 0,
+    "analysis_en": "The grounding and bonding section gives this numerical range. Radar equipment is explicitly mentioned in the context of HIRF sources.",
+    "analysis_th": "หัวข้อเรื่องกราวด์และบอนดิ้งให้ช่วงตัวเลขนี้ไว้ โดยกล่าวถึงอุปกรณ์เรดาร์ในบริบทของแหล่งกำเนิด HIRF อย่างชัดเจน",
+    "reference": "B1 p.214; B2 p.244 — §5.14.7",
+    "flagged": false
+  },
+  {
+    "id": 26,
+    "en": "The fundamental frequency of a signal is 100 MHz. Which value represents the third harmonic?",
+    "th": "ความถี่มูลฐาน (fundamental frequency) ของสัญญาณคือ 100 MHz ค่าใดคือฮาร์มอนิกที่สาม (third harmonic)?",
+    "options": [
+      {
+        "en": "300 MHz",
+        "th": "300 MHz"
+      },
+      {
+        "en": "100 MHz",
+        "th": "100 MHz"
+      },
+      {
+        "en": "200 MHz",
+        "th": "200 MHz"
+      },
+      {
+        "en": "400 MHz",
+        "th": "400 MHz"
+      }
+    ],
+    "correct": 0,
+    "analysis_en": "The book defines the third harmonic as three times the fundamental frequency. 3 × 100 MHz = 300 MHz.",
+    "analysis_th": "หนังสือนิยามฮาร์มอนิกที่สามว่าเท่ากับสามเท่าของความถี่มูลฐาน 3 × 100 MHz = 300 MHz",
+    "reference": "B1 p.202; B2 p.232 — Harmonics / Fourier analysis",
+    "flagged": false
+  },
+  {
+    "id": 27,
+    "en": "Which of the following is a way to reduce EMI of AC-systems?",
+    "th": "วิธีใดใช้ลด EMI ของระบบไฟฟ้ากระแสสลับ (AC-systems)?",
+    "options": [
+      {
+        "en": "Use a low-pass supply filter to remove noise and spurious signals from harmonics",
+        "th": "ใช้ตัวกรองสัญญาณผ่านความถี่ต่ำ (low-pass filter) ที่แหล่งจ่ายไฟ เพื่อกำจัดสัญญาณรบกวนและสัญญาณแปลกปลอมจากฮาร์มอนิก"
+      },
+      {
+        "en": "Use a high-pass filter on the supply",
+        "th": "ใช้ตัวกรองผ่านความถี่สูงที่แหล่งจ่ายไฟ"
+      },
+      {
+        "en": "Increase the supply voltage",
+        "th": "เพิ่มแรงดันไฟของแหล่งจ่าย"
+      },
+      {
+        "en": "Remove all capacitors from the circuit",
+        "th": "ถอดตัวเก็บประจุทั้งหมดออกจากวงจร"
+      }
+    ],
+    "correct": 0,
+    "analysis_en": "The book's modified supply example uses C11, L1, L2, C12 and C13 as a low-pass supply filter. If the real exam choices include this, it is the book-supported choice.",
+    "analysis_th": "ตัวอย่างวงจรแหล่งจ่ายไฟที่ปรับปรุงแล้วในหนังสือใช้ C11, L1, L2, C12 และ C13 เป็นตัวกรองผ่านความถี่ต่ำที่แหล่งจ่ายไฟ หากตัวเลือกจริงมีข้อนี้ ให้ถือเป็นคำตอบที่หนังสือรองรับ",
+    "reference": "B1 p.204; B2 p.234–235 — §5.14.2",
+    "flagged": false
+  },
+  {
+    "id": 28,
+    "en": "What does IRS stand for?",
+    "th": "IRS ย่อมาจากอะไร?",
+    "options": [
+      {
+        "en": "Inertial Reference System",
+        "th": "Inertial Reference System"
+      },
+      {
+        "en": "Instrument Rating System",
+        "th": "Instrument Rating System"
+      },
+      {
+        "en": "Internal Radio System",
+        "th": "Internal Radio System"
+      },
+      {
+        "en": "Integrated Reporting System",
+        "th": "Integrated Reporting System"
+      }
+    ],
+    "correct": 0,
+    "analysis_en": "The book explicitly expands IRS and describes it as an accurate navigation system independent of external radio input.",
+    "analysis_th": "หนังสือขยายความคำว่า IRS ไว้อย่างชัดเจน และอธิบายว่าเป็นระบบนำร่องที่แม่นยำซึ่งไม่ขึ้นกับสัญญาณวิทยุจากภายนอก",
+    "reference": "B1 p.231; B2 p.261 — §5.15.7",
+    "flagged": false
+  },
+  {
+    "id": 29,
+    "en": "What does FBW mean?",
+    "th": "FBW หมายถึงอะไร?",
+    "options": [
+      {
+        "en": "Fly-by-Wire",
+        "th": "Fly-by-Wire"
+      },
+      {
+        "en": "Flight Board Warning",
+        "th": "Flight Board Warning"
+      },
+      {
+        "en": "Full Backup Wiring",
+        "th": "Full Backup Wiring"
+      },
+      {
+        "en": "Forward Bus Wiring",
+        "th": "Forward Bus Wiring"
+      }
+    ],
+    "correct": 0,
+    "analysis_en": "The book explicitly uses Fly-by-Wire (FBW) and describes electrical connections replacing conventional mechanical linkages for flight controls.",
+    "analysis_th": "หนังสือใช้คำว่า Fly-by-Wire (FBW) อย่างชัดเจน และอธิบายว่าเป็นการเชื่อมต่อทางไฟฟ้าที่ใช้แทนกลไกเชื่อมโยงแบบดั้งเดิมสำหรับระบบควบคุมการบิน",
+    "reference": "B1 p.227–228; B2 p.257 — §5.15.4",
+    "flagged": false
+  },
+  {
+    "id": 30,
+    "en": "Which two displays are part of the EFIS system?",
+    "th": "จอแสดงผลสองชนิดใดที่เป็นส่วนหนึ่งของระบบ EFIS?",
+    "options": [
+      {
+        "en": "Primary Flight Display (PFD) and Navigation Display (ND)",
+        "th": "Primary Flight Display (PFD) และ Navigation Display (ND)"
+      },
+      {
+        "en": "PFD and EICAS",
+        "th": "PFD และ EICAS"
+      },
+      {
+        "en": "ND and EICAS",
+        "th": "ND และ EICAS"
+      },
+      {
+        "en": "MFD and CDU",
+        "th": "MFD และ CDU"
+      }
+    ],
+    "correct": 0,
+    "analysis_en": "The B1 book's EFIS section lists PFD and ND as the key displays; the B2 book gives a typical EFIS system comprising PFD, ND and associated processing/control units.",
+    "analysis_th": "หัวข้อ EFIS ของหนังสือ B1 ระบุ PFD และ ND เป็นจอแสดงผลหลัก ส่วนหนังสือ B2 อธิบายระบบ EFIS ทั่วไปว่าประกอบด้วย PFD, ND และหน่วยประมวลผล/ควบคุมที่เกี่ยวข้อง",
+    "reference": "B1 p.219–220; B2 p.249–250",
+    "flagged": false
+  },
+  {
+    "id": 31,
+    "en": "The GPS receiver is part of the:",
+    "th": "เครื่องรับสัญญาณ GPS (GPS receiver) เป็นส่วนหนึ่งของ:",
+    "options": [
+      {
+        "en": "User Segment",
+        "th": "User Segment"
+      },
+      {
+        "en": "Space Segment",
+        "th": "Space Segment"
+      },
+      {
+        "en": "Control Segment",
+        "th": "Control Segment"
+      },
+      {
+        "en": "Ground Segment",
+        "th": "Ground Segment"
+      }
+    ],
+    "correct": 0,
+    "analysis_en": "The GPS user segment comprises the receivers, processors and antennas that receive satellite broadcasts and calculate position, velocity and time.",
+    "analysis_th": "User segment ของ GPS ประกอบด้วยเครื่องรับ ตัวประมวลผล และเสาอากาศ ที่รับสัญญาณจากดาวเทียมและคำนวณตำแหน่ง ความเร็ว และเวลา",
+    "reference": "B1 p.230; B2 p.260 — GPS segments",
+    "flagged": false
+  },
+  {
+    "id": 32,
+    "en": "What is the ACARS System?",
+    "th": "ระบบ ACARS คืออะไร?",
+    "options": [
+      {
+        "en": "Aircraft Communication Addressing and Reporting System",
+        "th": "Aircraft Communication Addressing and Reporting System"
+      },
+      {
+        "en": "Automatic Cabin Announcement and Recording System",
+        "th": "Automatic Cabin Announcement and Recording System"
+      },
+      {
+        "en": "Aircraft Central Air Reporting System",
+        "th": "Aircraft Central Air Reporting System"
+      },
+      {
+        "en": "Advanced Communication and Radar System",
+        "th": "Advanced Communication and Radar System"
+      }
+    ],
+    "correct": 0,
+    "analysis_en": "ACARS is a digital data-link system in the VHF range (129–137 MHz) that allows aircraft operators to exchange data with aircraft.",
+    "analysis_th": "ACARS คือระบบดาต้าลิงก์ดิจิทัลในย่านความถี่ VHF (129–137 MHz) ที่ให้ผู้ให้บริการเครื่องบินแลกเปลี่ยนข้อมูลกับอากาศยานได้",
+    "reference": "B1 p.217–218; B2 p.247–248 — §5.15.1",
+    "flagged": false
+  },
+  {
+    "id": 33,
+    "en": "Convert the decimal number 12 to a binary number. Which answer is correct?",
+    "th": "แปลงเลขฐานสิบ 12 เป็นเลขฐานสอง คำตอบใดถูกต้อง?",
+    "options": [
+      {
+        "en": "1100",
+        "th": "1100"
+      },
+      {
+        "en": "1010",
+        "th": "1010"
+      },
+      {
+        "en": "1001",
+        "th": "1001"
+      },
+      {
+        "en": "1110",
+        "th": "1110"
+      }
+    ],
+    "correct": 0,
+    "analysis_en": "12 = 8 + 4, so the 8-bit and 4-bit positions are 1 and the 2 and 1 positions are 0: 1100.",
+    "analysis_th": "12 = 8 + 4 ดังนั้นตำแหน่งบิตของ 8 และ 4 เป็น 1 ส่วนตำแหน่งของ 2 และ 1 เป็น 0 จึงได้ 1100",
+    "reference": "B1 p.133; B2 p.133 — Number systems / Data representation",
+    "flagged": false
+  },
+  {
+    "id": 34,
+    "en": "What is the base of the octal numbering system?",
+    "th": "ระบบเลขฐานแปด (octal) มีฐานเท่าใด?",
+    "options": [
+      {
+        "en": "8",
+        "th": "8"
+      },
+      {
+        "en": "10",
+        "th": "10"
+      },
+      {
+        "en": "16",
+        "th": "16"
+      },
+      {
+        "en": "2",
+        "th": "2"
+      }
+    ],
+    "correct": 0,
+    "analysis_en": "Octal is base 8; its digits are 0 through 7.",
+    "analysis_th": "เลขฐานแปดมีฐานเป็น 8 ตัวเลขที่ใช้คือ 0 ถึง 7",
+    "reference": "B1 p.133; B2 p.133 — Number systems",
+    "flagged": false
+  },
+  {
+    "id": 35,
+    "en": "What is the decimal value of the binary number 1111?",
+    "th": "เลขฐานสอง 1111 มีค่าเท่ากับเลขฐานสิบใด?",
+    "options": [
+      {
+        "en": "15",
+        "th": "15"
+      },
+      {
+        "en": "11",
+        "th": "11"
+      },
+      {
+        "en": "14",
+        "th": "14"
+      },
+      {
+        "en": "16",
+        "th": "16"
+      }
+    ],
+    "correct": 0,
+    "analysis_en": "1111₂ = 8 + 4 + 2 + 1 = 15.",
+    "analysis_th": "1111₂ = 8 + 4 + 2 + 1 = 15",
+    "reference": "B1 p.133; B2 p.133 — Number systems / Data representation",
+    "flagged": false
+  },
+  {
+    "id": 36,
+    "en": "The input signal for an A/D converter is always an:",
+    "th": "สัญญาณอินพุตของตัวแปลง A/D จะเป็นสัญญาณชนิดใดเสมอ?",
+    "options": [
+      {
+        "en": "Analogue signal",
+        "th": "สัญญาณอนาล็อก"
+      },
+      {
+        "en": "Digital signal",
+        "th": "สัญญาณดิจิทัล"
+      },
+      {
+        "en": "Binary signal",
+        "th": "สัญญาณไบนารี"
+      },
+      {
+        "en": "Pulse-coded signal",
+        "th": "สัญญาณเข้ารหัสพัลส์"
+      }
+    ],
+    "correct": 0,
+    "analysis_en": "The A/D converter converts an analogue input into a digital/binary representation.",
+    "analysis_th": "ตัวแปลง A/D จะแปลงสัญญาณอินพุตแบบอนาล็อกให้เป็นข้อมูลดิจิทัล/เลขฐานสอง",
+    "reference": "B1/B2 §5.3 — A/D conversion",
+    "flagged": false
+  },
+  {
+    "id": 37,
+    "en": "Why do we need A/D converters?",
+    "th": "เหตุใดจึงต้องใช้ตัวแปลง A/D?",
+    "options": [
+      {
+        "en": "To convert analogue signals/measurements into digital data that a computer can process",
+        "th": "เพื่อแปลงสัญญาณ/ค่าที่วัดได้แบบอนาล็อกให้เป็นข้อมูลดิจิทัลที่คอมพิวเตอร์สามารถประมวลผลได้"
+      },
+      {
+        "en": "To convert digital signals into analogue signals",
+        "th": "เพื่อแปลงสัญญาณดิจิทัลให้เป็นสัญญาณอนาล็อก"
+      },
+      {
+        "en": "To boost the amplitude of a signal",
+        "th": "เพื่อเพิ่มความแรงของสัญญาณ"
+      },
+      {
+        "en": "To store data permanently",
+        "th": "เพื่อเก็บข้อมูลแบบถาวร"
+      }
+    ],
+    "correct": 0,
+    "analysis_en": "The book describes an analogue voltage measurement being converted to a digital value represented as binary numbers.",
+    "analysis_th": "หนังสืออธิบายว่าค่าแรงดันไฟฟ้าอนาล็อกที่วัดได้จะถูกแปลงเป็นค่าดิจิทัลซึ่งแทนด้วยเลขฐานสอง",
+    "reference": "B1/B2 §5.3 — A/D conversion",
+    "flagged": false
+  },
+  {
+    "id": 38,
+    "en": "The sampling time of an A/D converter is 2 ms. How many results will be measured in 1 second?",
+    "th": "เวลาในการสุ่มตัวอย่าง (sampling time) ของตัวแปลง A/D คือ 2 ms จะวัดผลได้กี่ครั้งใน 1 วินาที?",
+    "options": [
+      {
+        "en": "500 results",
+        "th": "500 ครั้ง"
+      },
+      {
+        "en": "200 results",
+        "th": "200 ครั้ง"
+      },
+      {
+        "en": "50 results",
+        "th": "50 ครั้ง"
+      },
+      {
+        "en": "2000 results",
+        "th": "2000 ครั้ง"
+      }
+    ],
+    "correct": 0,
+    "analysis_en": "1 second = 1000 ms. 1000 ÷ 2 = 500 samples/results per second.",
+    "analysis_th": "1 วินาที = 1000 ms หาร 1000 ด้วย 2 ได้ 500 ตัวอย่างต่อวินาที",
+    "reference": "B1/B2 §5.3 — Sampling / A/D conversion",
+    "flagged": false
+  },
+  {
+    "id": 39,
+    "en": "What is the disadvantage of a return-to-zero (RZ) signal compared to a non-return-to-zero (NRZ) signal?",
+    "th": "ข้อเสียของสัญญาณ return to zero (RZ) เมื่อเทียบกับสัญญาณ non-return to zero (NRZ) คืออะไร?",
+    "options": [
+      {
+        "en": "It requires twice as much bandwidth",
+        "th": "ต้องการแบนด์วิดท์มากกว่าถึงสองเท่า"
+      },
+      {
+        "en": "It requires half the bandwidth",
+        "th": "ต้องการแบนด์วิดท์เพียงครึ่งเดียว"
+      },
+      {
+        "en": "It cannot support clock recovery",
+        "th": "ไม่สามารถรองรับการกู้คืนสัญญาณนาฬิกาได้"
+      },
+      {
+        "en": "It requires more voltage",
+        "th": "ต้องการแรงดันไฟฟ้ามากกว่า"
+      }
+    ],
+    "correct": 0,
+    "analysis_en": "The book states this explicitly. RZ returns to zero after half the clock period, guaranteeing a transition for clock recovery, but the trade-off is twice the bandwidth requirement.",
+    "analysis_th": "หนังสือระบุไว้อย่างชัดเจน สัญญาณ RZ จะกลับสู่ศูนย์หลังจากผ่านครึ่งหนึ่งของคาบสัญญาณนาฬิกา ทำให้มั่นใจได้ว่าจะมีการเปลี่ยนสถานะสำหรับการกู้คืนสัญญาณนาฬิกา แต่ข้อแลกเปลี่ยนคือต้องใช้แบนด์วิดท์เพิ่มขึ้นเป็นสองเท่า",
+    "reference": "B1 p.76; B2 p.76 — Return to Zero",
+    "flagged": false
+  },
+  {
+    "id": 40,
+    "en": "What is the bus architecture of an ARINC 429 bus?",
+    "th": "สถาปัตยกรรมบัสของ ARINC 429 เป็นแบบใด?",
+    "options": [
+      {
+        "en": "Unidirectional, two-wire differential bus: one transmitter/source to one or more receivers/sinks",
+        "th": "บัสแบบทิศทางเดียว (unidirectional) ใช้สายคู่แบบดิฟเฟอเรนเชียล โดยมีตัวส่งสัญญาณหนึ่งตัวไปยังตัวรับหนึ่งตัวหรือมากกว่า"
+      },
+      {
+        "en": "Bidirectional single-wire bus",
+        "th": "บัสสายเดี่ยวแบบสองทิศทาง"
+      },
+      {
+        "en": "Multi-drop bidirectional bus with token passing",
+        "th": "บัสหลายจุดต่อแบบสองทิศทางด้วยการส่งผ่านโทเค็น"
+      },
+      {
+        "en": "Bidirectional two-wire differential bus",
+        "th": "บัสสายคู่ดิฟเฟอเรนเชียลแบบสองทิศทาง"
+      }
+    ],
+    "correct": 0,
+    "analysis_en": "ARINC 429 is unidirectional and uses a two-wire differential bus. A source transmits to one or more receivers; separate ports/couplers/cables are needed for an LRU that must both transmit and receive.",
+    "analysis_th": "ARINC 429 เป็นบัสทิศทางเดียวและใช้สายคู่แบบดิฟเฟอเรนเชียล แหล่งสัญญาณ (source) จะส่งไปยังตัวรับ (receiver) หนึ่งตัวหรือมากกว่า สำหรับ LRU ที่ต้องทั้งส่งและรับ จำเป็นต้องมีพอร์ต/คัปเปลอร์/สายสัญญาณแยกต่างหาก",
+    "reference": "B1 p.83–84; B2 p.83–84 — ARINC 429",
+    "flagged": false
+  }
+]
