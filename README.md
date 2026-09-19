@@ -32,6 +32,16 @@ module5-mock-exam/
 - **Collapsible explanations** — after submitting, click *Show Explanation*
   on any question to see the book reference and reasoning, in both
   languages.
+- **Remark / source passage** — every question has a *Read it in the book*
+  panel showing the actual paragraph from **both** books (CAT-B1 and
+  CAT-B2), with the page number and section. The text is extracted
+  directly from the two uploaded PDFs, so you can confirm an answer
+  without hunting through 246/276 pages.
+- **Verified page references** — all 40 citations were re-checked against
+  the real books. Several were corrected: the number-system questions
+  (Q33–Q35) and the A/D conversion questions (Q36–Q38) had been cited to
+  memory/generic sections; they now point at Module 5.2 (pp.31–34) and
+  Module 5.3 (pp.48–51).
 - **Flagged / VERIFY items** — a few questions (colour-coding on EICAS, the
   DO-178 Level A failure rate, the IFE software level, and the two
   no-choices-given memory questions) are marked `VERIFY` because the
@@ -76,10 +86,20 @@ entry looks like:
   "correct": 0,
   "analysis_en": "...",
   "analysis_th": "...",
-  "reference": "B1 p.xxx; B2 p.xxx — Section name",
-  "flagged": false
+  "reference": "B1 p.xxx · B2 p.xxx — Section name",
+  "section": "§5.x.x Section name",
+  "flagged": false,
+  "source": {
+    "b1": { "page": 152, "text": "passage extracted from the CAT-B1 book" },
+    "b2": { "page": 182, "text": "passage extracted from the CAT-B2 book" }
+  }
 }
 ```
+
+The `source` blocks are what the *Read it in the book* panel displays. A
+`"text": null` means no supporting sentence was found in that book's
+searchable text — usually because the answer lives in a figure rather than
+prose.
 
 Add, edit, or re-order entries there — `index.html` and `cheat-sheet.html`
 both read from it (the cheat sheet is a static render of the same data, so

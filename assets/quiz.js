@@ -111,7 +111,47 @@ function renderQuestion(q, idx) {
     explainToggle.textContent = open ? "▾ HIDE EXPLANATION" : "▸ SHOW EXPLANATION";
   });
 
+  // --- remark: the actual passage from the books ---
+  const remarkToggle = document.createElement("div");
+  remarkToggle.className = "remark-toggle";
+  remarkToggle.textContent = "▸ READ IT IN THE BOOK / อ่านเนื้อหาต้นฉบับ";
+  card.appendChild(remarkToggle);
+
+  const remark = document.createElement("div");
+  remark.className = "remark";
+  remark.innerHTML = buildRemark(q);
+  card.appendChild(remark);
+
+  remarkToggle.addEventListener("click", () => {
+    const open = remark.classList.toggle("open");
+    remarkToggle.textContent = open
+      ? "▾ HIDE BOOK PASSAGE / ซ่อนเนื้อหาต้นฉบับ"
+      : "▸ READ IT IN THE BOOK / อ่านเนื้อหาต้นฉบับ";
+  });
+
   return card;
+}
+
+function buildRemark(q) {
+  const src = q.source || {};
+  const blocks = [];
+  [["b1", "CAT-B1"], ["b2", "CAT-B2"]].forEach(([key, label]) => {
+    const s = src[key];
+    if (!s) return;
+    const body = s.text
+      ? escapeHtml(s.text)
+      : '<em class="nohit">No supporting passage found in the searchable text of this book — check the figure on this page.</em>';
+    blocks.push(`
+      <div class="remark-book">
+        <div class="remark-cite">${label} · page ${s.page}${q.section ? " · " + escapeHtml(q.section) : ""}</div>
+        <blockquote>${body}</blockquote>
+      </div>
+    `);
+  });
+  blocks.push(
+    '<div class="remark-note th">ข้อความข้างต้นคัดมาจากหนังสือเรียนโดยตรง (สกัดจากไฟล์ PDF) เปิดหน้าที่ระบุในหนังสือเพื่ออ่านฉบับเต็มพร้อมรูปประกอบ</div>'
+  );
+  return blocks.join("");
 }
 
 function escapeHtml(str) {
